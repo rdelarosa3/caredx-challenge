@@ -53,9 +53,9 @@ Salesforce Visualforce page built using Skuid UX/UI tool. This Page creates an A
 5. Below that section there are 3 Tiles with Interaction (click events) handled by Javascript Snippets.
 6. When Cases are open user can click the tile and a Side Panel will open displaying the cases.
 7. In the SidePanel thorugh the use of Field Editor the user can edit the Case.
-8. If Case is updated and saved an Action Sequence will be triggered to query relaed models.
+8. If Case is updated and saved an Action Sequence will be triggered to query related models.
 9. In the Pipeline Chart section user has ability to toggle diplay show/hide with the use of JavaScript Snippet
 10. When Pipleine Stage is clicked Modal is open with Table details of Opportunity
 11. Below a Deck Component is used to display Child Accounts Opportunities
-12. Using Tab Compenent User can view Open Opportunites and Closed.
-13. User may edit Open Opportunites through Row Actions and using A Mass Row Action that triggers an Acion Sequence the user can refresh Models.
+12. Using Tab Compenent User can view Open and Closed Opportunites.
+13. User may edit Open Opportunites through Row Actions and the user may refresh Models using a Mass Row Action that triggers an Action Sequence.
