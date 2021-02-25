@@ -1,0 +1,14 @@
+<apex:page sidebar="false" 
+    readOnly="true" 
+    docType="html-5.0" 
+    title="Skuid Data Sources" 
+    controller="skuid.SkuidSettingsController" 
+    showHeader="false"
+    tabStyle="Skuid_Settings__tab"
+    >
+    <head>
+        <title>Skuid - Data Sources</title>
+    </head>
+    <c:page page="DataSources"/>
+    <script>skuid.remote.set("skuid.SkuidSettingsController");</script>
+</apex:page>

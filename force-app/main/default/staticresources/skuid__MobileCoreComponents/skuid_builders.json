@@ -1,0 +1,23 @@
+{
+	"id": "skuidmobilecore",
+	"namespace": "skuid",
+	"platform": "salesforce",
+	"folders": [],
+	"components": [
+		{ "id": "mobiledeck" },
+		{ "id": "mobilegrid" },
+		{ "id": "mobilebutton" },
+		{ "id": "template" },
+		{ "id": "mobiletitle" },
+		{ "id": "mobileinfo" },
+		{ "id": "mobilefield" },
+		{ "id": "mobilewrapper" },
+		{ "id": "mobileimage" },
+		{ "id": "custom" },
+		{ "id": "division" },
+		{ "id": "file" }
+	],
+	"js": [
+		{ "resource": "js/skuidmobilecoreBuilders.js" }
+	]
+}

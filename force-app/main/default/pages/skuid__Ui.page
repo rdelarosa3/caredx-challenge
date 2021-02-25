@@ -1,0 +1,62 @@
+<apex:page controller="skuid.Ui" readonly="true" standardStylesheets="false" extensions="skuid.RemotingStubs" sidebar="{!showSidebar}" showHeader="{!showHeader}" 
+	docType="html-5.0" cache="{!cachePage}" expires="{!cacheExpiration}">
+	
+    <apex:outputPanel rendered="{!useLegacyRendering}" layout="none">
+        <!-- Legacy v1 page renderer -->
+        <!--  Load in standard Skuid page resources -->
+        <c:contentHeader pageType="{!pageType}" pageTheme="{!pageThemeUrl}" loadCoreResources="{!loadCoreResources}" loadMobileResources="{!loadMobileResources}" loadDesktopResources="{!loadDesktopResources}"/>
+        <!-- Load in external CSS files using link tags -->
+        <apex:outputText value="{!cssLoads}" escape="false" />
+        <!-- Load local/page/inline CSS -->
+        <style>{!css}</style>
+        <!-- Build the HTML DOM of our page -->
+        <apex:outputText value="{!html}" escape="false" />
+        <!-- Load in Skuid module JS -->
+        <c:scripts pageType="{!pageType}" pageTheme="{!pageThemeUrl}" loadCoreResources="{!loadCoreResources}" loadMobileResources="{!loadMobileResources}" loadDesktopResources="{!loadDesktopResources}" />
+        <!-- Load in external JS files using script tags with src attribute -->
+        <apex:outputText value="{!jsLoads}" escape="false" />
+        <!-- Load in inline JS -->
+        <script type="application/javascript">(function(skuid){<apex:outputText value="{!js}"/>}(skuid));</script>
+    </apex:outputPanel>
+    
+    <apex:outputPanel rendered="{!!useLegacyRendering}" layout="none">
+        <!-- v2 page renderer -->
+        <script>
+            if (!window.skuid) window.skuid = {};
+            // Set global variables needed for SFDC AJAX API, before loading it.
+            if (typeof(__sfdcSiteUrlPrefix) === "undefined") __sfdcSiteUrlPrefix = "{!$Site.Prefix}";
+            if (typeof(__sfdcSessionId) === "undefined") __sfdcSessionId = "{!GETSESSIONID()}";
+        </script>
+        <script src="{!$Resource.skuid__SharedRuntimeJS}" type="application/javascript"></script>
+        <div id="skuid-page-temp"></div>
+        <script>
+            Object.assign(sforce.connection, {
+                client: "Skuidify LLC/Skuid/",
+                partnerServerUrl: "{!$Api.Partner_Server_Url_460}",
+                enterpriseServerUrl: "{!$Api.Enterprise_Server_Url_460}"
+            });
+
+            var wrapper = document.getElementById('skuid-page-temp'),
+                wrapperId = wrapper.id = skuid.runtime.generateUniquePageId();
+            /* global skuid */
+            skuid.runtime.start({
+                platform: {
+                    environment: "{!Environment}",
+                    sitePrefix: "{!$Site.Prefix}",
+                    skuidVersionedResources: {!skuidVersionedResources},
+                    platformName: "visualforce",
+                    // A little helper function to figure out if we're in Lightning Experience
+                    SFUITheme: "{!$User.UIThemeDisplayed}",
+                },
+                initialPage: {
+                    pageId: "{!JSINHTMLENCODE(pageId)}",
+                    pageName: "{!JSINHTMLENCODE(pageName)}",
+                    serviceModstamps: {!serviceModstamps},
+                    serviceResponses: {!serviceResponses},
+                    wrapper: wrapper,
+                },
+            });
+        </script>
+    </apex:outputPanel>
+    
+</apex:page>

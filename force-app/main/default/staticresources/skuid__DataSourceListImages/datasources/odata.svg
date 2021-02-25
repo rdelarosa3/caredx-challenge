@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="88px" height="88px" viewBox="0 0 88 88" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 53.2 (72643) - https://sketchapp.com -->
+    <title>Odata</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Odata" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <rect fill="#FFFFFF" opacity="0" x="0" y="0" width="88" height="88"></rect>
+        <g id="Group-2">
+            <rect id="Rectangle" fill="#FF8C00" x="10" y="10" width="70" height="70" rx="2.59259259"></rect>
+            <rect id="Rectangle" x="0" y="0" width="88" height="88"></rect>
+            <g id="Group" transform="translate(17.000000, 17.000000)" fill="#FFFFFF">
+                <circle id="Oval" cx="11.9379845" cy="42.9767442" r="10.3462532"></circle>
+                <rect id="Rectangle" x="0" y="0" width="23.875969" height="6.36692506"></rect>
+                <rect id="Rectangle-Copy-3" x="29.4470284" y="0" width="23.875969" height="6.36692506"></rect>
+                <rect id="Rectangle-Copy" x="0" y="11.1421189" width="23.875969" height="6.36692506"></rect>
+                <rect id="Rectangle-Copy-4" x="29.4470284" y="11.1421189" width="23.875969" height="6.36692506"></rect>
+                <rect id="Rectangle-Copy-2" x="0" y="22.2842377" width="23.875969" height="6.36692506"></rect>
+                <rect id="Rectangle-Copy-5" x="29.4470284" y="22.2842377" width="23.875969" height="6.36692506"></rect>
+                <rect id="Rectangle-Copy-6" x="29.4470284" y="33.4263566" width="23.875969" height="6.36692506"></rect>
+            </g>
+        </g>
+    </g>
+</svg>

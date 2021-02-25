@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="88px" height="88px" viewBox="0 0 88 88" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 53.2 (72643) - https://sketchapp.com -->
+    <title>Docusign</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Docusign" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <rect fill="#FFFFFF" opacity="0" x="0" y="0" width="88" height="88"></rect>
+        <g id="Group-2">
+            <rect id="Rectangle" x="0" y="0" width="88" height="88"></rect>
+            <g id="Group-3" transform="translate(9.000000, 9.000000)">
+                <rect id="Rectangle" fill="#F9CE55" x="0" y="0" width="70" height="70" rx="2.625"></rect>
+                <g id="Group" transform="translate(8.750000, 14.875000)">
+                    <path d="M18.375,15.75 L18.375,0 L34.125,0 L34.125,15.75 L42.875,15.75 L26.25,35 L9.625,15.75 L18.375,15.75 Z" id="Combined-Shape" fill="#CE3C27"></path>
+                    <path d="M0.4375,40.6875 L51.7612915,40.6875" id="Line" stroke="#CE3C27" stroke-width="2.625" stroke-linecap="round"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

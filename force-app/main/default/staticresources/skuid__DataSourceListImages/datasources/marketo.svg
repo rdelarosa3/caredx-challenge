@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="88px" height="88px" viewBox="0 0 88 88" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 53.2 (72643) - https://sketchapp.com -->
+    <title>Marketo</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Marketo" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <rect fill="#FFFFFF" opacity="0" x="0" y="0" width="88" height="88"></rect>
+        <rect id="Rectangle" x="0" y="0" width="88" height="88"></rect>
+        <g id="marketo-icon" transform="translate(14.000000, 9.000000)" fill="#5C4C9F" fill-rule="nonzero" stroke-linecap="round" stroke-linejoin="round">
+            <g id="A">
+                <path d="M59.5782609,55.5790846 L59.5782609,9.6957 L41.8119565,0 L41.8119565,69.7846154 L59.5782609,55.5790846 Z M19.226087,6.06580962 L33.5413043,10.3183096 L33.5413043,54.5443096 L19.226087,60.8172923 L19.226087,6.06580962 Z M10.9565217,15.0876519 L0.052173913,13.3245 L0,52.9349019 L10.9565217,50.0312077 L10.9565217,15.0876519 Z" id="Shape"></path>
+            </g>
+        </g>
+    </g>
+</svg>

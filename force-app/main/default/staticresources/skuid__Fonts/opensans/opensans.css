@@ -1,0 +1,39 @@
+@font-face {
+  font-family: 'Open Sans';
+  src: url("Light/OpenSans-Light.eot?orgId=00D5Y000001NMM5&v=1.1.0");
+  src: url("Light/OpenSans-Light.eot?orgId=00D5Y000001NMM5#iefix&v=1.1.0") format("embedded-opentype"), url("Light/OpenSans-Light.woff2?orgId=00D5Y000001NMM5&v=1.1.0") format("woff2"), url("Light/OpenSans-Light.woff?orgId=00D5Y000001NMM5&v=1.1.0") format("woff"), url("Light/OpenSans-Light.ttf?orgId=00D5Y000001NMM5&v=1.1.0") format("truetype"), url("Light/OpenSans-Light.svg?orgId=00D5Y000001NMM5&v=1.1.0#Light") format("svg");
+  font-weight: 300;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Open Sans';
+  src: url("Regular/OpenSans-Regular.eot?orgId=00D5Y000001NMM5&v=1.1.0");
+  src: url("Regular/OpenSans-Regular.eot?orgId=00D5Y000001NMM5#iefix&v=1.1.0") format("embedded-opentype"), url("Regular/OpenSans-Regular.woff2?orgId=00D5Y000001NMM5&v=1.1.0") format("woff2"), url("Regular/OpenSans-Regular.woff?orgId=00D5Y000001NMM5&v=1.1.0") format("woff"), url("Regular/OpenSans-Regular.ttf?orgId=00D5Y000001NMM5&v=1.1.0") format("truetype"), url("Regular/OpenSans-Regular.svg?orgId=00D5Y000001NMM5&v=1.1.0#Regular") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Open Sans';
+  src: url("Italic/OpenSans-Italic.eot?orgId=00D5Y000001NMM5&v=1.1.0");
+  src: url("Italic/OpenSans-Italic.eot?orgId=00D5Y000001NMM5#iefix&v=1.1.0") format("embedded-opentype"), url("Italic/OpenSans-Italic.woff2?orgId=00D5Y000001NMM5&v=1.1.0") format("woff2"), url("Italic/OpenSans-Italic.woff?orgId=00D5Y000001NMM5&v=1.1.0") format("woff"), url("Italic/OpenSans-Italic.ttf?orgId=00D5Y000001NMM5&v=1.1.0") format("truetype"), url("Italic/OpenSans-Italic.svg?orgId=00D5Y000001NMM5&v=1.1.0#Italic") format("svg");
+  font-weight: normal;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'Open Sans';
+  src: url("Semibold/OpenSans-Semibold.eot?orgId=00D5Y000001NMM5&v=1.1.0");
+  src: url("Semibold/OpenSans-Semibold.eot?orgId=00D5Y000001NMM5#iefix&v=1.1.0") format("embedded-opentype"), url("Semibold/OpenSans-Semibold.woff2?orgId=00D5Y000001NMM5&v=1.1.0") format("woff2"), url("Semibold/OpenSans-Semibold.woff?orgId=00D5Y000001NMM5&v=1.1.0") format("woff"), url("Semibold/OpenSans-Semibold.ttf?orgId=00D5Y000001NMM5&v=1.1.0") format("truetype"), url("Semibold/OpenSans-Semibold.svg?orgId=00D5Y000001NMM5&v=1.1.0#Semibold") format("svg");
+  font-weight: 600;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Open Sans';
+  src: url("Bold/OpenSans-Bold.eot?orgId=00D5Y000001NMM5&v=1.1.0");
+  src: url("Bold/OpenSans-Bold.eot?orgId=00D5Y000001NMM5#iefix&v=1.1.0") format("embedded-opentype"), url("Bold/OpenSans-Bold.woff2?orgId=00D5Y000001NMM5&v=1.1.0") format("woff2"), url("Bold/OpenSans-Bold.woff?orgId=00D5Y000001NMM5&v=1.1.0") format("woff"), url("Bold/OpenSans-Bold.ttf?orgId=00D5Y000001NMM5&v=1.1.0") format("truetype"), url("Bold/OpenSans-Bold.svg?orgId=00D5Y000001NMM5&v=1.1.0#Bold") format("svg");
+  font-weight: bold;
+  font-style: normal;
+}

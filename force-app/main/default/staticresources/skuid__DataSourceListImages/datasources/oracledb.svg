@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="88px" height="88px" viewBox="0 0 88 88" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 53.2 (72643) - https://sketchapp.com -->
+    <title>Oracle</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Oracle" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <rect fill="#FFFFFF" opacity="0" x="0" y="0" width="88" height="88"></rect>
+        <g id="Group">
+            <rect id="Rectangle" x="0" y="0" width="88" height="88"></rect>
+            <rect id="Rectangle" fill="#DE2D35" x="9" y="9" width="70" height="70" rx="2.59259259"></rect>
+            <rect id="Rectangle" stroke="#FFFFFF" stroke-width="4.83950617" x="21.9197531" y="31.5447531" width="43.5555556" height="24.5432099" rx="12.2716049"></rect>
+        </g>
+    </g>
+</svg>

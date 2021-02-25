@@ -1,0 +1,40 @@
+{
+	"fontConfig": {
+		"custom": {
+			"families": [
+				"Lato"
+			],
+			"urls": []
+		}
+	},
+	"cssResources": [
+		{
+			"type": "external",
+			"url": "https://fonts.googleapis.com/css?family=Lato:400,700"
+		}
+	],
+	"themeSettings": {
+		"visualizations": {
+			"chart": {},
+			"geochart": {
+				"background": "white",
+				"nullColor": "#eee",
+				"colorPalette": [
+					"#618ECE ",
+					"#D16260 ",
+					"#A8CB68 ",
+					"#8E74B2",
+					"#62BAD7",
+					"#FF9B53 ",
+					"#94ACD7 ",
+					"#D99493 ",
+					"#BDD597 ",
+					"#AD9EC4",
+					"#91C9DD ",
+					"#FFB48A"
+				]
+			}
+		}
+	},
+	"__comment": "DO NOT EDIT, this is a generated file and all changes will be overwritten. If you wish to change the resources loaded, please do so in the skuid_theme.json"
+}

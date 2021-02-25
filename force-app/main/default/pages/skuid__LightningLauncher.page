@@ -1,0 +1,7 @@
+<apex:page standardStyleSheets="false" title="Skuid Support" 
+        readonly="true" sidebar="false" docType="html-5.0">  
+    <head>
+        <title>Skuid Support</title>
+    </head>
+    <c:page page="SupportLauncher"/>
+</apex:page>

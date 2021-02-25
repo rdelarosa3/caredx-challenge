@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomApplication xmlns="http://soap.sforce.com/2006/04/metadata">
+    <brand>
+        <footerColor>#005CB9</footerColor>
+        <headerColor>#005CB9</headerColor>
+        <logo>skuid__Skuid_App_Logo</logo>
+        <logoVersion>1</logoVersion>
+        <shouldOverrideOrgTheme>false</shouldOverrideOrgTheme>
+    </brand>
+    <description>Create custom UX for pages and apps with drag-and-drop tools.</description>
+    <formFactors>Large</formFactors>
+    <isNavAutoTempTabsDisabled>true</isNavAutoTempTabsDisabled>
+    <isNavPersonalizationDisabled>true</isNavPersonalizationDisabled>
+    <label>Skuid</label>
+    <navType>Standard</navType>
+    <tabs>skuid__LightningLauncher</tabs>
+    <tabs>skuid__Launcher</tabs>
+    <uiType>Lightning</uiType>
+</CustomApplication>

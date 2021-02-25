@@ -1,0 +1,116 @@
+{
+	"id": "skuidcore",
+	"namespace": "skuid",
+	"folders": [
+		{ "id": "skuidlayout", "name": "Layout", "autoopen": true, "icon": "sk-icon-campaign" },
+		{ "id": "skuiddata", "name": "Data", "autoopen": true, "icon": "sk-icon-campaign" },
+		{ "id": "skuidother", "name": "Advanced", "icon": "sk-icon-campaign" }
+	],
+	"components": [
+		{
+			"id": "button"
+		},
+		{
+			"id": "buttonset",
+			"folderId": "skuidlayout"
+		},
+		{
+			"id": "navigation",
+			"folderId": "skuidlayout"
+		},
+		{
+			"id": "panelset",
+			"folderId": "skuidlayout"
+		},
+		{
+			"id": "grid",
+			"folderId": "skuidlayout"
+		},
+		{
+			"id": "tabset",
+			"folderId": "skuidlayout"
+		},
+		{
+			"id": "wizard",
+			"folderId": "skuidlayout"
+		},
+		{
+			"id": "wrapper",
+			"folderId": "skuidlayout"
+		},
+		{
+			"id": "skoocal",
+			"folderId": "skuiddata"
+		},
+		{
+			"id": "deck",
+			"folderId": "skuiddata"
+		},
+		{
+			"id": "basicfieldeditor",
+			"folderId": "skuiddata"
+		},
+		{
+			"id": "file",
+			"folderId": "skuiddata"
+		},
+		{
+			"id": "filterset",
+			"folderId": "skuiddata"
+		},
+		{
+			"id": "image",
+			"folderId": "skuiddata"
+		},
+		{
+			"id": "pagetitle",
+			"folderId": "skuiddata"
+		},
+		{
+			"id": "queue",
+			"folderId": "skuiddata"
+		},
+		{
+			"id": "richtext",
+			"folderId": "skuiddata"
+		},
+		{
+			"id": "search",
+			"folderId": "skuiddata"
+		},
+		{
+			"id": "skootable",
+			"folderId": "skuiddata"
+		},
+		{
+			"id": "template",
+			"folderId": "skuiddata"
+		},
+		{
+			"id": "custom",
+			"folderId": "skuidother"
+		},
+		{
+			"id": "includepanel",
+			"folderId": "skuidother"
+		},
+		{
+			"id": "social",
+			"folderId": "skuidother"
+		},
+		{
+			"id": "pageregion",
+			"folderId": "skuidother"
+		},
+		{
+			"id": "skuidheader"
+		},
+		{
+			"id": "skuidfooter"
+		}
+	],
+	"js": [
+		{ "resource": "js/builderReqs.js" },
+		{ "resource": "js/skuidcoreBuilders.js" }
+	]
+}

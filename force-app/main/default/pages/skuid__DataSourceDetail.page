@@ -1,0 +1,5 @@
+<apex:page sidebar="false" readOnly="true" docType="html-5.0" title="Data Source" showHeader="false" tabStyle="Skuid_Settings__tab" controller="skuid.SkuidSettingsController">
+	<c:page page="Settings_DataSourceDetail"/>
+	<script>skuid.remote.set("skuid.SkuidSettingsController");</script>
+	<apex:stylesheet value="{!URLFOR($Resource.skuid__JSONEditor,'/jsoneditor.min.css')}"/>
+</apex:page>

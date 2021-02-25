@@ -1,0 +1,131 @@
+{
+	"id": "skuid",
+	"namespace": "skuid",
+	"folders": [
+		{ "id": "skuid-layout", "name": "Layout", "autoopen": true, "icon": "sk-icon-campaign" },
+		{ "id": "skuid-data", "name": "Data", "autoopen": true, "icon": "sk-icon-campaign" },
+		{ "id": "skuid-vis", "name": "Visualizations", "autoopen": true, "icon": "sk-bi-fields-agg" },
+		{ "id": "skuid-other", "name": "Advanced", "icon": "sk-icon-campaign" }
+	],
+	"components": [
+		{
+			"id": "accordion",
+			"folderId": "skuid-layout"
+		},
+		{
+			"id": "buttonGroup",
+			"folderId": "skuid-layout"
+		},
+		{
+			"id": "buttonSet",
+			"folderId": "skuid-layout"
+		},
+		{
+			"id": "grid",
+			"folderId": "skuid-layout"
+		},
+		{
+			"id": "masthead",
+			"folderId": "skuid-layout"
+		},
+		{
+			"id": "navigation",
+			"folderId": "skuid-layout"
+		},
+		{
+			"id": "tabContainer",
+			"folderId": "skuid-layout"
+		},
+		{
+			"id": "tabSet",
+			"folderId": "skuid-layout"
+		},
+		{
+			"id": "verticalNavigation",
+			"folderId": "skuid-layout"
+		},
+		{
+			"id": "wizard",
+			"folderId": "skuid-layout"
+		},
+		{
+			"id": "wrapper",
+			"folderId": "skuid-layout"
+		},
+		{
+			"id": "code",
+			"folderId": "skuid-data"
+		},{
+			"id": "deck",
+			"folderId": "skuid-data"
+		},
+		{
+			"id": "file",
+			"folderId": "skuid-data"
+		},
+		{
+			"id": "filterSet",
+			"folderId": "skuid-data"
+		},
+		{
+			"id": "form",
+			"folderId": "skuid-data"
+		},
+		{
+			"id": "header",
+			"folderId": "skuid-data"
+		},
+		{
+			"id": "image",
+			"folderId": "skuid-data"
+		},
+		{
+			"id": "list",
+			"folderId": "skuid-data"
+		},
+		{
+			"id": "messageArea",
+			"folderId": "skuid-data"
+		},
+		{
+			"id": "search",
+			"folderId": "skuid-data"
+		},
+		{
+			"id": "table",
+			"folderId": "skuid-data"
+		},
+		{
+			"id": "text",
+			"folderId": "skuid-data"
+		},
+		{
+			"id": "chart",
+			"folderId": "skuid-vis"
+		},
+		{
+			"id": "geochart",
+			"folderId": "skuid-vis"
+		},
+		{
+			"id": "chatter",
+			"folderId": "skuid-other"
+		},
+		{
+			"id": "pageInclude",
+			"folderId": "skuid-other"
+		},
+		{
+			"id": "pageRegion",
+			"folderId": "skuid-other"
+		}
+	],
+	"js": [
+		{ "resource": "js/skuidBuilders.js" },
+		{ "resource": "js/lib/highcharts.js" },
+		{ "resource": "js/lib/highmaps.js" },
+		{ "resource": "js/skuidvisRuntime.js" },
+		{ "resource": "js/skuidvisCharts.js" },
+		{ "resource": "js/skuidvisGeoChart.js" }
+	]
+}

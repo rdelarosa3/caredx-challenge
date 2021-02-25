@@ -1,0 +1,25 @@
+{
+	"id": "skuidvis",
+	"namespace": "skuid",
+	"folders": [
+		{ "id": "skuidvis", "name": "Visualizations", "icon": "sk-bi-fields-agg" }
+	],
+	"components": [
+		{
+			"id": "chart",
+			"folderId": "skuidvis"
+		},
+		{
+			"id": "geochart",
+			"folderId": "skuidvis"
+		}
+	],
+	"js": [
+		{ "resource": "js/lib/highcharts.js" },
+		{ "resource": "js/lib/highmaps.js" },
+		{ "resource": "js/skuidvisRuntime.js" },
+		{ "resource": "js/skuidvisCharts.js" },
+		{ "resource": "js/skuidvisGeoChart.js" },
+		{ "resource": "js/skuidvisBuilders.js" }
+	]
+}

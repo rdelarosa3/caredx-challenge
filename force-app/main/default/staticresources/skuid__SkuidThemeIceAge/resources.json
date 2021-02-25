@@ -1,0 +1,24 @@
+{
+	"fontConfig": {
+		"google": {
+			"families": [
+				"Noto+Sans:400,700,400italic"
+			]
+		},
+		"custom": {
+			"families": [
+				"Open Sans"
+			],
+			"urls": []
+		}
+	},
+	"cssResources": [
+		{
+			"type": "static",
+			"name": "Fonts",
+			"namespace": "skuid",
+			"path": "opensans/opensans.css"
+		}
+	],
+	"__comment": "DO NOT EDIT, this is a generated file and all changes will be overwritten. If you wish to change the resources loaded, please do so in the skuid_theme.json"
+}

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="88px" height="88px" viewBox="0 0 88 88" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 53.2 (72643) - https://sketchapp.com -->
+    <title>SES</title>
+    <desc>Created with Sketch.</desc>
+    <g id="SES" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <rect fill="#FFFFFF" opacity="0" x="0" y="0" width="88" height="88"></rect>
+        <rect id="Rectangle" x="0" y="0" width="88" height="88"></rect>
+        <g id="Messaging_AmazonSES" transform="translate(14.000000, 10.000000)" fill-rule="nonzero">
+            <polygon id="Path" fill="#876929" points="14.5 11.6333333 0.583333333 33.7916667 14.5 55.95 25.6166667 53.1 26.1666667 14.625"></polygon>
+            <polygon id="Path" fill="#D9A741" points="30.0416667 51.9666667 14.5 55.95 14.5 11.6333333 30.0416667 15.6166667"></polygon>
+            <polygon id="Path" fill="#876929" points="28.1916667 19.2333333 30.0416667 69.3 59.4166667 54.6083333 59.4083333 17.2083333 51.9166667 18.45"></polygon>
+            <polygon id="Path" fill="#876929" points="39.4 29.125 48.5666667 28.5833333 57.625 12.15 34.7166667 0.7 26.1666667 4.44166667"></polygon>
+            <polygon id="Path" fill="#D9A741" points="34.7166667 0.7 57.625 12.15 48.5666667 28.5833333"></polygon>
+            <polygon id="Path" fill="#876929" points="30.0416667 5.45 48.5666667 39.0666667 51.75 58.4416667 30.0416667 69.3 21.25 64.9 21.25 8.96666667 30.0333333 5.45"></polygon>
+            <polygon id="Path" fill="#D9A741" points="59.4083333 17.2083333 59.4166667 54.6083333 30.0416667 69.3 30.0416667 5.45 48.5666667 39.0666667"></polygon>
+        </g>
+    </g>
+</svg>

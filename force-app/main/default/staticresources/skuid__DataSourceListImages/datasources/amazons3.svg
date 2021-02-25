@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="88px" height="88px" viewBox="0 0 88 88" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 53.2 (72643) - https://sketchapp.com -->
+    <title>S3</title>
+    <desc>Created with Sketch.</desc>
+    <g id="S3" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <rect fill="#FFFFFF" opacity="0" x="0" y="0" width="88" height="88"></rect>
+        <rect id="Rectangle" x="0" y="0" width="88" height="88"></rect>
+        <g id="Storage_AmazonS3" transform="translate(15.000000, 9.000000)" fill-rule="nonzero">
+            <polygon id="Path" fill="#8C3123" points="4.72529412 12.147561 0.0682352941 14.4780488 0.0682352941 55.4280488 4.72529412 57.7585366 16.1547059 34.9487805"></polygon>
+            <polygon id="Path" fill="#E05243" points="29 51.8682927 4.72529412 57.75 4.72529412 12.147561 29 18.0292683 40.4720588 35.0170732"></polygon>
+            <polygon id="Path" fill="#8C3123" points="29 51.8682927 53.2661765 57.75 57.4626471 35.5292683 53.2661765 12.147561 29 18.0292683"></polygon>
+            <polygon id="Path" fill="#E05243" points="53.2661765 12.147561 57.9317647 14.4780488 57.9317647 55.4280488 53.2661765 57.7585366"></polygon>
+            <polygon id="Path" fill="#8C3123" points="18.415 42.495122 29 43.852439 37.3929412 35.0170732 29 26.1902439 18.415 27.5219512"></polygon>
+            <polygon id="Path" fill="#5E1F18" points="39.585 20.2743902 29 22.2036585 18.415 20.2743902 29 0"></polygon>
+            <polygon id="Path" fill="#F2B0A9" points="39.585 49.7256098 29 47.7792683 18.415 49.7256098 29 70"></polygon>
+            <polygon id="Path" fill="#E05243" points="39.585 20.2743902 29 17.6536585 29 0 39.585 5.29268293"></polygon>
+            <polygon id="Path" fill="#8C3123" points="18.415 20.2743902 29 17.6536585 29 0 18.415 5.29268293"></polygon>
+            <polygon id="Path" fill="#E05243" points="29 70 39.585 64.7073171 39.585 49.7256098 29 52.3463415"></polygon>
+            <polygon id="Path" fill="#8C3123" points="29 70 18.415 64.7073171 18.415 49.7256098 29 52.3463415"></polygon>
+            <polygon id="Path" fill="#E05243" points="39.585 42.495122 29 43.852439 29 26.1902439 39.585 27.5219512"></polygon>
+        </g>
+    </g>
+</svg>

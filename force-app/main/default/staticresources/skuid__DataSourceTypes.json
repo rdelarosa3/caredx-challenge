@@ -1,0 +1,1036 @@
+{
+	"v1": {
+		"GoogleCalendar": {
+			"js": [
+				{
+					"path": "js/models/RESTDataSourceUtils.js",
+					"namespace": "skuid"
+				},
+				{
+					"path": "js/models/RESTDataSourceTypeBase.js",
+					"namespace": "skuid"
+				},
+				{
+					"path": "js/dataSourceTypes/googleCalendar.js",
+					"namespace": "skuid"
+				}
+			],
+			"label": "Google Calendar"
+		},
+		"GoogleDrive": {
+			"js": [
+				{
+					"path": "js/models/RESTDataSourceUtils.js",
+					"namespace": "skuid"
+				},
+				{
+					"path": "js/models/RESTDataSourceTypeBase.js",
+					"namespace": "skuid"
+				},
+				{
+					"path": "js/dataSourceTypes/googleDrive.js",
+					"namespace": "skuid"
+				}
+			],
+			"label": "Google Drive"
+		},
+		"Marketo": {
+			"js": [
+				{
+					"path": "js/models/RESTDataSourceUtils.js",
+					"namespace": "skuid"
+				},
+				{
+					"path": "js/models/RESTDataSourceTypeBase.js",
+					"namespace": "skuid"
+				},
+				{
+					"path": "js/dataSourceTypes/marketo.js",
+					"namespace": "skuid"
+				}
+			],
+			"label": "Marketo"
+		},
+		"AmazonDynamoDB": {
+			"js": [
+				{
+					"path": "js/models/RESTDataSourceUtils.js",
+					"namespace": "skuid"
+				},
+				{
+					"path": "js/models/RESTDataSourceTypeBase.js",
+					"namespace": "skuid"
+				},
+				{
+					"path": "js/dataSourceTypes/amazonDynamoDB.js",
+					"namespace": "skuid"
+				}
+			],
+			"label": "Amazon DynamoDB",
+			"platform": [
+				"skuid-platform",
+				"cordova"
+			]
+		},
+		"AmazonLambda": {
+			"js": [
+				{
+					"path": "js/models/RESTDataSourceUtils.js",
+					"namespace": "skuid"
+				},
+				{
+					"path": "js/models/RESTDataSourceTypeBase.js",
+					"namespace": "skuid"
+				},
+				{
+					"path": "js/dataSourceTypes/amazonLambda.js",
+					"namespace": "skuid"
+				}
+			],
+			"label": "Amazon Lambda",
+			"platform": [
+				"skuid-platform",
+				"cordova"
+			],
+			"requiresFeature": "DataSourceType:AmazonLambda"
+		},
+		"AmazonLEX": {
+			"js": [
+				{
+					"path": "js/models/RESTDataSourceUtils.js",
+					"namespace": "skuid"
+				},
+				{
+					"path": "js/models/RESTDataSourceTypeBase.js",
+					"namespace": "skuid"
+				},
+				{
+					"path": "js/dataSourceTypes/amazonLEX.js",
+					"namespace": "skuid"
+				}
+			],
+			"label": "Amazon LEX",
+			"platform": [
+				"skuid-platform",
+				"cordova"
+			]
+		},
+		"AmazonPolly": {
+			"js": [
+				{
+					"path": "js/models/RESTDataSourceUtils.js",
+					"namespace": "skuid"
+				},
+				{
+					"path": "js/models/RESTDataSourceTypeBase.js",
+					"namespace": "skuid"
+				},
+				{
+					"path": "js/dataSourceTypes/amazonPolly.js",
+					"namespace": "skuid"
+				}
+			],
+			"label": "Amazon Polly",
+			"platform": [
+				"skuid-platform",
+				"cordova"
+			]
+		},
+		"AmazonRedshift": {
+			"js": [
+				{
+					"path": "js/models/relationalDataSourceTypeBase.js",
+					"namespace": "skuid"
+				},
+				{
+					"path": "js/dataSourceTypes/dataSourceObject.js",
+					"namespace": "skuid"
+				}
+			],
+			"label": "Amazon Redshift",
+			"dialect": "redshift",
+			"requiresFeature": "DataSourceType:AmazonRedshift",
+			"useDataSourceObjects": true
+		},
+		"AmazonS3": {
+			"js": [
+				{
+					"path": "js/models/RESTDataSourceUtils.js",
+					"namespace": "skuid"
+				},
+				{
+					"path": "js/models/RESTDataSourceTypeBase.js",
+					"namespace": "skuid"
+				},
+				{
+					"path": "js/dataSourceTypes/amazonS3.js",
+					"namespace": "skuid"
+				}
+			],
+			"label": "Amazon S3",
+			"platform": [
+				"skuid-platform",
+				"cordova"
+			]
+		},
+		"AmazonSES": {
+			"js": [
+				{
+					"path": "js/models/RESTDataSourceUtils.js",
+					"namespace": "skuid"
+				},
+				{
+					"path": "js/models/RESTDataSourceTypeBase.js",
+					"namespace": "skuid"
+				},
+				{
+					"path": "js/dataSourceTypes/amazonSES.js",
+					"namespace": "skuid"
+				}
+			],
+			"label": "Amazon SES",
+			"platform": [
+				"skuid-platform",
+				"cordova"
+			],
+			"requiresFeature": "DataSourceType:AmazonSES"
+		},
+		"AmazonSNS": {
+			"js": [
+				{
+					"path": "js/models/RESTDataSourceUtils.js",
+					"namespace": "skuid"
+				},
+				{
+					"path": "js/models/RESTDataSourceTypeBase.js",
+					"namespace": "skuid"
+				},
+				{
+					"path": "js/dataSourceTypes/amazonSNS.js",
+					"namespace": "skuid"
+				}
+			],
+			"label": "Amazon SNS",
+			"platform": [
+				"skuid-platform",
+				"cordova"
+			]
+		},
+		"DocuSign": {
+			"js": [
+				{
+					"path": "js/models/RESTDataSourceUtils.js",
+					"namespace": "skuid"
+				},
+				{
+					"path": "js/models/RESTDataSourceTypeBase.js",
+					"namespace": "skuid"
+				},
+				{
+					"path": "js/dataSourceTypes/docuSign.js",
+					"namespace": "skuid"
+				}
+			],
+			"label": "DocuSign"
+		},
+		"OData": {
+			"js": [
+				{
+					"path": "js/models/oDataDataSourceTypeBase.js",
+					"namespace": "skuid"
+				},
+				{
+					"path": "js/dataSourceTypes/oData.js",
+					"namespace": "skuid"
+				}
+			],
+			"label": "OData"
+		},
+		"MicrosoftDynamics": {
+			"js": [
+				{
+					"path": "js/models/oDataDataSourceTypeBase.js",
+					"namespace": "skuid"
+				},
+				{
+					"path": "js/dataSourceTypes/microsoftDynamics.js",
+					"namespace": "skuid"
+				}
+			],
+			"label": "Microsoft Dynamics"
+		},
+		"MicrosoftOneDrive": {
+			"js": [
+				{
+					"path": "js/models/RESTDataSourceUtils.js",
+					"namespace": "skuid"
+				},
+				{
+					"path": "js/models/RESTDataSourceTypeBase.js",
+					"namespace": "skuid"
+				},
+				{
+					"path": "js/dataSourceTypes/microsoftOneDrive.js",
+					"namespace": "skuid"
+				}
+			],
+			"label": "Microsoft OneDrive"
+		},
+		"MicrosoftExcel": {
+			"js": [
+				{
+					"path": "js/models/RESTDataSourceUtils.js",
+					"namespace": "skuid"
+				},
+				{
+					"path": "js/models/RESTDataSourceTypeBase.js",
+					"namespace": "skuid"
+				},
+				{
+					"path": "js/dataSourceTypes/microsoftExcel.js",
+					"namespace": "skuid"
+				}
+			],
+			"label": "Microsoft Excel"
+		},
+		"SAPGateway": {
+			"js": [
+				{
+					"path": "js/models/oDataDataSourceTypeBase.js",
+					"namespace": "skuid"
+				},
+				{
+					"path": "js/dataSourceTypes/SAPGateway.js",
+					"namespace": "skuid"
+				}
+			],
+			"label": "SAP Gateway"
+		},
+		"Outlook": {
+			"js": [
+				{
+					"path": "js/models/RESTDataSourceUtils.js",
+					"namespace": "skuid"
+				},
+				{
+					"path": "js/models/RESTDataSourceTypeBase.js",
+					"namespace": "skuid"
+				},
+				{
+					"path": "js/dataSourceTypes/outlook.js",
+					"namespace": "skuid"
+				}
+			],
+			"label": "Microsoft Outlook"
+		},
+		"REST": {
+			"js": [
+				{
+					"path": "js/models/RESTDataSourceUtils.js",
+					"namespace": "skuid"
+				},
+				{
+					"path": "js/dataSourceTypes/REST.js",
+					"namespace": "skuid"
+				}
+			],
+			"label": "REST"
+		},
+		"Ui-Only": {
+			"js": [
+				{
+					"path": "js/dataSourceTypes/uiOnly.js",
+					"namespace": "skuid"
+				}
+			],
+			"label": "Ui-Only"
+		},
+		"Box": {
+			"js": [
+				{
+					"path": "js/models/RESTDataSourceUtils.js",
+					"namespace": "skuid"
+				},
+				{
+					"path": "js/models/RESTDataSourceTypeBase.js",
+					"namespace": "skuid"
+				},
+				{
+					"path": "js/dataSourceTypes/box.js",
+					"namespace": "skuid"
+				}
+			],
+			"label": "Box"
+		},
+		"JIRA": {
+			"js": [
+				{
+					"path": "js/models/RESTDataSourceUtils.js",
+					"namespace": "skuid"
+				},
+				{
+					"path": "js/models/RESTDataSourceTypeBase.js",
+					"namespace": "skuid"
+				},
+				{
+					"path": "js/dataSourceTypes/jira.js",
+					"namespace": "skuid"
+				}
+			],
+			"label": "JIRA",
+			"requiresFeature": "DataSourceType:JIRA"
+		},
+		"salesforce": {
+			"js": [
+				{
+					"path": "js/dataSourceTypes/salesforce.js",
+					"namespace": "skuid"
+				}
+			],
+			"label": "Salesforce"
+		},
+		"Sharepoint": {
+			"js": [
+				{
+					"path": "js/models/oDataDataSourceTypeBase.js",
+					"namespace": "skuid"
+				},
+				{
+					"path": "js/dataSourceTypes/sharepoint.js",
+					"namespace": "skuid"
+				}
+			],
+			"label": "Microsoft SharePoint"
+		},
+		"Slack": {
+			"js": [
+				{
+					"path": "js/models/RESTDataSourceUtils.js",
+					"namespace": "skuid"
+				},
+				{
+					"path": "js/models/RESTDataSourceTypeBase.js",
+					"namespace": "skuid"
+				},
+				{
+					"path": "js/dataSourceTypes/slack.js",
+					"namespace": "skuid"
+				}
+			],
+			"label": "Slack"
+		},
+		"PostgreSQL": {
+			"js": [
+				{
+					"path": "js/models/relationalDataSourceTypeBase.js",
+					"namespace": "skuid"
+				},
+				{
+					"path": "js/dataSourceTypes/dataSourceObject.js",
+					"namespace": "skuid"
+				}
+			],
+			"label": "PostgreSQL",
+			"dialect": "pg",
+			"requiresFeature": "DataSourceType:PostgreSQL",
+			"useDataSourceObjects": true
+		},
+		"MicrosoftSQL": {
+			"js": [
+				{
+					"path": "js/models/relationalDataSourceTypeBase.js",
+					"namespace": "skuid"
+				},
+				{
+					"path": "js/dataSourceTypes/dataSourceObject.js",
+					"namespace": "skuid"
+				}
+			],
+			"label": "Microsoft SQL Server",
+			"dialect": "mssql",
+			"requiresFeature": "DataSourceType:MicrosoftSQL",
+			"useDataSourceObjects": true
+		},
+		"MySQL": {
+			"js": [
+				{
+					"path": "js/models/relationalDataSourceTypeBase.js",
+					"namespace": "skuid"
+				},
+				{
+					"path": "js/dataSourceTypes/dataSourceObject.js",
+					"namespace": "skuid"
+				}
+			],
+			"label": "MySQL / MariaDB",
+			"dialect": "mysql",
+			"requiresFeature": "DataSourceType:MySQL",
+			"useDataSourceObjects": true
+		},
+		"OracleDB": {
+			"js": [
+				{
+					"path": "js/models/relationalDataSourceTypeBase.js",
+					"namespace": "skuid"
+				},
+				{
+					"path": "js/dataSourceTypes/dataSourceObject.js",
+					"namespace": "skuid"
+				}
+			],
+			"label": "Oracle",
+			"dialect": "oracledb",
+			"requiresFeature": "DataSourceType:OracleDB",
+			"useDataSourceObjects": true
+		},
+		"ServiceNow": {
+			"js": [
+				{
+					"path": "js/models/RESTDataSourceUtils.js",
+					"namespace": "skuid"
+				},
+				{
+					"path": "js/models/RESTDataSourceTypeBase.js",
+					"namespace": "skuid"
+				},
+				{
+					"path": "js/dataSourceTypes/serviceNow.js",
+					"namespace": "skuid"
+				}
+			],
+			"label": "ServiceNow",
+			"requiresFeature": "DataSourceType:ServiceNow"
+		},
+		"Device": {
+			"js": [
+				{
+					"path": "js/dataSourceTypes/device.js",
+					"namespace": "skuid"
+				}
+			],
+			"label": "Device",
+			"requiresFeature": "DataSourceType:Device",
+			"platform": [
+				"cordova",
+				"skuid-platform"
+			]
+		}
+	},
+	"v2": {
+		"GoogleCalendar": {
+			"js": [
+				{
+					"path": "js/models/RESTDataSourceUtils.js",
+					"namespace": "skuid"
+				},
+				{
+					"path": "js/models/RESTDataSourceTypeBase.js",
+					"namespace": "skuid"
+				},
+				{
+					"path": "js/dataSourceTypes/googleCalendar.js",
+					"namespace": "skuid"
+				}
+			],
+			"label": "Google Calendar"
+		},
+		"GoogleDrive": {
+			"js": [
+				{
+					"path": "js/models/RESTDataSourceUtils.js",
+					"namespace": "skuid"
+				},
+				{
+					"path": "js/models/RESTDataSourceTypeBase.js",
+					"namespace": "skuid"
+				},
+				{
+					"path": "js/dataSourceTypes/googleDrive.js",
+					"namespace": "skuid"
+				}
+			],
+			"label": "Google Drive"
+		},
+		"Marketo": {
+			"js": [
+				{
+					"path": "js/models/RESTDataSourceUtils.js",
+					"namespace": "skuid"
+				},
+				{
+					"path": "js/models/RESTDataSourceTypeBase.js",
+					"namespace": "skuid"
+				},
+				{
+					"path": "js/dataSourceTypes/marketo.js",
+					"namespace": "skuid"
+				}
+			],
+			"label": "Marketo"
+		},
+		"AmazonDynamoDB": {
+			"js": [
+				{
+					"path": "js/models/RESTDataSourceUtils.js",
+					"namespace": "skuid"
+				},
+				{
+					"path": "js/models/RESTDataSourceTypeBase.js",
+					"namespace": "skuid"
+				},
+				{
+					"path": "js/dataSourceTypes/amazonDynamoDB.js",
+					"namespace": "skuid"
+				}
+			],
+			"label": "Amazon DynamoDB",
+			"platform": [
+				"cordova",
+				"skuid-platform"
+			]
+		},
+		"AmazonLambda": {
+			"js": [
+				{
+					"path": "js/models/RESTDataSourceUtils.js",
+					"namespace": "skuid"
+				},
+				{
+					"path": "js/models/RESTDataSourceTypeBase.js",
+					"namespace": "skuid"
+				},
+				{
+					"path": "js/dataSourceTypes/amazonLambda.js",
+					"namespace": "skuid"
+				}
+			],
+			"label": "Amazon Lambda",
+			"platform": [
+				"cordova",
+				"skuid-platform"
+			],
+			"requiresFeature": "DataSourceType:AmazonLambda"
+		},
+		"AmazonLEX": {
+			"js": [
+				{
+					"path": "js/models/RESTDataSourceUtils.js",
+					"namespace": "skuid"
+				},
+				{
+					"path": "js/models/RESTDataSourceTypeBase.js",
+					"namespace": "skuid"
+				},
+				{
+					"path": "js/dataSourceTypes/amazonLEX.js",
+					"namespace": "skuid"
+				}
+			],
+			"label": "Amazon LEX",
+			"platform": [
+				"cordova",
+				"skuid-platform"
+			]
+		},
+		"AmazonPolly": {
+			"js": [
+				{
+					"path": "js/models/RESTDataSourceUtils.js",
+					"namespace": "skuid"
+				},
+				{
+					"path": "js/models/RESTDataSourceTypeBase.js",
+					"namespace": "skuid"
+				},
+				{
+					"path": "js/dataSourceTypes/amazonPolly.js",
+					"namespace": "skuid"
+				}
+			],
+			"label": "Amazon Polly",
+			"platform": [
+				"cordova",
+				"skuid-platform"
+			]
+		},
+		"AmazonRedshift": {
+			"js": [
+				{
+					"path": "js/models/relationalDataSourceTypeBase.js",
+					"namespace": "skuid"
+				},
+				{
+					"path": "js/dataSourceTypes/dataSourceObject.js",
+					"namespace": "skuid"
+				}
+			],
+			"label": "Amazon Redshift",
+			"dialect": "redshift",
+			"requiresFeature": "DataSourceType:AmazonRedshift",
+			"useDataSourceObjects": true
+		},
+		"AmazonS3": {
+			"js": [
+				{
+					"path": "js/models/RESTDataSourceUtils.js",
+					"namespace": "skuid"
+				},
+				{
+					"path": "js/models/RESTDataSourceTypeBase.js",
+					"namespace": "skuid"
+				},
+				{
+					"path": "js/dataSourceTypes/amazonS3.js",
+					"namespace": "skuid"
+				}
+			],
+			"label": "Amazon S3",
+			"platform": [
+				"cordova",
+				"skuid-platform"
+			]
+		},
+		"AmazonSES": {
+			"js": [
+				{
+					"path": "js/models/RESTDataSourceUtils.js",
+					"namespace": "skuid"
+				},
+				{
+					"path": "js/models/RESTDataSourceTypeBase.js",
+					"namespace": "skuid"
+				},
+				{
+					"path": "js/dataSourceTypes/amazonSES.js",
+					"namespace": "skuid"
+				}
+			],
+			"label": "Amazon SES",
+			"platform": [
+				"cordova",
+				"skuid-platform"
+			],
+			"requiresFeature": "DataSourceType:AmazonSES"
+		},
+		"AmazonSNS": {
+			"js": [
+				{
+					"path": "js/models/RESTDataSourceUtils.js",
+					"namespace": "skuid"
+				},
+				{
+					"path": "js/models/RESTDataSourceTypeBase.js",
+					"namespace": "skuid"
+				},
+				{
+					"path": "js/dataSourceTypes/amazonSNS.js",
+					"namespace": "skuid"
+				}
+			],
+			"label": "Amazon SNS",
+			"platform": [
+				"cordova",
+				"skuid-platform"
+			]
+		},
+		"DocuSign": {
+			"js": [
+				{
+					"path": "js/models/RESTDataSourceUtils.js",
+					"namespace": "skuid"
+				},
+				{
+					"path": "js/models/RESTDataSourceTypeBase.js",
+					"namespace": "skuid"
+				},
+				{
+					"path": "js/dataSourceTypes/docuSign.js",
+					"namespace": "skuid"
+				}
+			],
+			"label": "DocuSign"
+		},
+		"OData": {
+			"js": [
+				{
+					"path": "js/models/oDataDataSourceTypeBase.js",
+					"namespace": "skuid"
+				},
+				{
+					"path": "js/dataSourceTypes/oData.js",
+					"namespace": "skuid"
+				}
+			],
+			"label": "OData"
+		},
+		"MicrosoftDynamics": {
+			"js": [
+				{
+					"path": "js/models/oDataDataSourceTypeBase.js",
+					"namespace": "skuid"
+				},
+				{
+					"path": "js/dataSourceTypes/microsoftDynamics.js",
+					"namespace": "skuid"
+				}
+			],
+			"label": "Microsoft Dynamics"
+		},
+		"MicrosoftOneDrive": {
+			"js": [
+				{
+					"path": "js/models/RESTDataSourceUtils.js",
+					"namespace": "skuid"
+				},
+				{
+					"path": "js/models/RESTDataSourceTypeBase.js",
+					"namespace": "skuid"
+				},
+				{
+					"path": "js/dataSourceTypes/microsoftOneDrive.js",
+					"namespace": "skuid"
+				}
+			],
+			"label": "Microsoft OneDrive"
+		},
+		"MicrosoftExcel": {
+			"js": [
+				{
+					"path": "js/models/RESTDataSourceUtils.js",
+					"namespace": "skuid"
+				},
+				{
+					"path": "js/models/RESTDataSourceTypeBase.js",
+					"namespace": "skuid"
+				},
+				{
+					"path": "js/dataSourceTypes/microsoftExcel.js",
+					"namespace": "skuid"
+				}
+			],
+			"label": "Microsoft Excel"
+		},
+		"SAPGateway": {
+			"js": [
+				{
+					"path": "js/models/oDataDataSourceTypeBase.js",
+					"namespace": "skuid"
+				},
+				{
+					"path": "js/dataSourceTypes/SAPGateway.js",
+					"namespace": "skuid"
+				}
+			],
+			"label": "SAP Gateway"
+		},
+		"Outlook": {
+			"js": [
+				{
+					"path": "js/models/RESTDataSourceUtils.js",
+					"namespace": "skuid"
+				},
+				{
+					"path": "js/models/RESTDataSourceTypeBase.js",
+					"namespace": "skuid"
+				},
+				{
+					"path": "js/dataSourceTypes/outlook.js",
+					"namespace": "skuid"
+				}
+			],
+			"label": "Microsoft Outlook"
+		},
+		"REST": {
+			"js": [
+				{
+					"path": "js/models/RESTDataSourceUtils.js",
+					"namespace": "skuid"
+				},
+				{
+					"path": "js/dataSourceTypes/REST.js",
+					"namespace": "skuid"
+				}
+			],
+			"label": "REST"
+		},
+		"Ui-Only": {
+			"js": [
+				{
+					"path": "js/dataSourceTypes/uiOnly.js",
+					"namespace": "skuid"
+				}
+			],
+			"label": "Ui-Only"
+		},
+		"Box": {
+			"js": [
+				{
+					"path": "js/models/RESTDataSourceUtils.js",
+					"namespace": "skuid"
+				},
+				{
+					"path": "js/models/RESTDataSourceTypeBase.js",
+					"namespace": "skuid"
+				},
+				{
+					"path": "js/dataSourceTypes/box.js",
+					"namespace": "skuid"
+				}
+			],
+			"label": "Box"
+		},
+		"JIRA": {
+			"js": [
+				{
+					"path": "js/models/RESTDataSourceUtils.js",
+					"namespace": "skuid"
+				},
+				{
+					"path": "js/models/RESTDataSourceTypeBase.js",
+					"namespace": "skuid"
+				},
+				{
+					"path": "js/dataSourceTypes/jira.js",
+					"namespace": "skuid"
+				}
+			],
+			"label": "JIRA",
+			"requiresFeature": "DataSourceType:JIRA"
+		},
+		"salesforce": {
+			"js": [
+				{
+					"path": "js/dataSourceTypes/salesforce.js",
+					"namespace": "skuid"
+				}
+			],
+			"label": "Salesforce"
+		},
+		"Sharepoint": {
+			"js": [
+				{
+					"path": "js/models/oDataDataSourceTypeBase.js",
+					"namespace": "skuid"
+				},
+				{
+					"path": "js/dataSourceTypes/sharepoint.js",
+					"namespace": "skuid"
+				}
+			],
+			"label": "Microsoft SharePoint"
+		},
+		"Slack": {
+			"js": [
+				{
+					"path": "js/models/RESTDataSourceUtils.js",
+					"namespace": "skuid"
+				},
+				{
+					"path": "js/models/RESTDataSourceTypeBase.js",
+					"namespace": "skuid"
+				},
+				{
+					"path": "js/dataSourceTypes/slack.js",
+					"namespace": "skuid"
+				}
+			],
+			"label": "Slack"
+		},
+		"PostgreSQL": {
+			"js": [
+				{
+					"path": "js/models/relationalDataSourceTypeBase.js",
+					"namespace": "skuid"
+				},
+				{
+					"path": "js/dataSourceTypes/dataSourceObject.js",
+					"namespace": "skuid"
+				}
+			],
+			"label": "PostgreSQL",
+			"dialect": "pg",
+			"requiresFeature": "DataSourceType:PostgreSQL",
+			"useDataSourceObjects": true
+		},
+		"MicrosoftSQL": {
+			"js": [
+				{
+					"path": "js/models/relationalDataSourceTypeBase.js",
+					"namespace": "skuid"
+				},
+				{
+					"path": "js/dataSourceTypes/dataSourceObject.js",
+					"namespace": "skuid"
+				}
+			],
+			"label": "Microsoft SQL Server",
+			"dialect": "mssql",
+			"requiresFeature": "DataSourceType:MicrosoftSQL",
+			"useDataSourceObjects": true
+		},
+		"MySQL": {
+			"js": [
+				{
+					"path": "js/models/relationalDataSourceTypeBase.js",
+					"namespace": "skuid"
+				},
+				{
+					"path": "js/dataSourceTypes/dataSourceObject.js",
+					"namespace": "skuid"
+				}
+			],
+			"label": "MySQL / MariaDB",
+			"dialect": "mysql",
+			"requiresFeature": "DataSourceType:MySQL",
+			"useDataSourceObjects": true
+		},
+		"OracleDB": {
+			"js": [
+				{
+					"path": "js/models/relationalDataSourceTypeBase.js",
+					"namespace": "skuid"
+				},
+				{
+					"path": "js/dataSourceTypes/dataSourceObject.js",
+					"namespace": "skuid"
+				}
+			],
+			"label": "Oracle",
+			"dialect": "oracledb",
+			"requiresFeature": "DataSourceType:OracleDB",
+			"useDataSourceObjects": true
+		},
+		"ServiceNow": {
+			"js": [
+				{
+					"path": "js/models/RESTDataSourceUtils.js",
+					"namespace": "skuid"
+				},
+				{
+					"path": "js/models/RESTDataSourceTypeBase.js",
+					"namespace": "skuid"
+				},
+				{
+					"path": "js/dataSourceTypes/serviceNow.js",
+					"namespace": "skuid"
+				}
+			],
+			"label": "ServiceNow",
+			"requiresFeature": "DataSourceType:ServiceNow"
+		},
+		"Device": {
+			"js": [
+				{
+					"path": "js/dataSourceTypes/device.js",
+					"namespace": "skuid"
+				}
+			],
+			"label": "Device",
+			"requiresFeature": "DataSourceType:Device",
+			"platform": [
+				"cordova",
+				"skuid-platform"
+			]
+		}
+	}
+}

@@ -1,0 +1,7 @@
+<apex:page sidebar="false" readOnly="true" docType="html-5.0"
+    standardController="skuid__Page__c"
+    showHeader="false"
+    title="Edit Page XML: {!IF(NOT(ISBLANK($CurrentPage.parameters.pagename)),$CurrentPage.parameters.pagename,skuid__Page__c.Name)}" 
+    >
+    <c:page page="PageXMLEdit"/>
+</apex:page>

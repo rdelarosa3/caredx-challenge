@@ -1,0 +1,388 @@
+{
+	"id": "skuidcore",
+	"namespace": "skuid",
+	"customLabelNamespace": "skuid",
+	"components": [
+		{
+			"id": "attachmentimage"
+		},
+		{
+			"id": "basicfieldeditor",
+			"alwaysLoad": true
+		},
+		{
+			"id": "buttonset",
+			"pathsToActions": [
+				"buttons",
+				"buttons>button>actions"
+			]
+		},
+		{
+			"id": "chatbotfulloverlay"
+		},
+		{
+			"id": "custom"
+		},
+		{
+			"id": "deck",
+			"pathsToChildComponents": ["components"],
+			"pathsToActions": ["interactions>interaction"],
+			"customLabelDependencies": [
+				"Select_Cards",
+				"Toggle_Selected_Rows_for_Deletion",
+				"Item_Selected",
+				"Items_Selected"
+			]
+		},
+		{
+			"id": "file",
+			"customLabelDependencies": [
+				"Error_Exceeds_Max_File_Size",
+				"Error_Invalid_File_Upload_Data_Source",
+				"Error_Could_Not_Find_Upload_Method"
+			],
+			"pathsToDataSourceAttributes": [
+				":datasource"
+			]
+		},
+		{
+			"id": "filterset"
+		},
+		{
+			"id" : "globalfeedback",
+			"customLabelDependencies": [
+				"Cancel",
+				"Next",
+				"Global_Feedback_Attach_Button_Text",
+				"Global_Feedback_Breadcrumb_Step_1",
+				"Global_Feedback_Breadcrumb_Step_2",
+				"Global_Feedback_Close_Button_Text",
+				"Global_Feedback_File_Button_Text",
+				"Global_Feedback_File_Help_Text",
+				"Global_Feedback_Question_Text",
+				"Global_Feedback_Submit_Button_Text",
+				"Global_Feedback_Success_Emphasized_Message",
+				"Global_Feedback_Success_Secondary_Message",
+				"Global_Feedback_Tab_Icon",
+				"Global_Feedback_Tab_Text",
+				"Global_Feedback_Type_Text"
+			]
+		},
+		{
+			"id": "grid",
+			"pathsToChildComponents": [
+				"divisions>division>components"
+			]
+		},
+		{
+			"id": "image",
+			"pathsToDataSourceAttributes": [
+				":datasource"
+			]
+		},
+		{
+			"id": "includepanel"
+		},
+		{
+			"id": "navigation",
+			"hasServerDependencies": true,
+			"customLabelDependencies": [
+				"Expand_Collapse"
+			]
+		},
+		{
+			"id": "pagebuilder",
+			"customLabelDependencies": [
+				"Add_Drilldown",
+				"Building_Page",
+				"Clone",
+				"Components",
+				"Day_Scheduling_View",
+				"Edit_Rows_Action",
+				"File_Resource",
+				"Flag_for_Delete_Action",
+				"Invalid_Data_Source",
+				"Invalid_Data_Source_Type",
+				"Mass_Update_Selected_Rows",
+				"Models",
+				"Module",
+				"Month_View",
+				"No_Module",
+				"None_Option_Text",
+				"Page_Regions",
+				"Preview",
+				"Properties",
+				"pb_No_properties_renderer",
+				"pb_No_component_renderer",
+				"Remove",
+				"Resources",
+				"Toggle_Edit_Mode_on_Selected_Rows",
+				"Toggle_Selected_Rows_for_Deletion",
+				"Week_View"
+			],
+			"hasServerDependencies": true
+		},
+		{
+			"id": "pageregion"
+		},
+		{
+			"id": "pagetitle",
+			"alwaysLoad": true,
+			"pathsToActions": [
+				"actions"
+			],
+			"customLabelDependencies": [
+				"Clone",
+				"Confirm_Delete",
+				"Delete",
+				"Deleting",
+				"Edit_Page",
+				"No",
+				"No_But_I_Would_Like_To_Delete",
+				"No_Dont_Delete_Anything",
+				"Share",
+				"Yes"
+			]
+		},
+		{
+			"id": "panel",
+			"pathsToChildComponents": ["components"]
+		},
+		{
+			"id": "panelset",
+			"pathsToChildComponents": [
+				"panels>panel>components"
+			]
+		},
+		{
+			"id": "queue",
+			"pathsToActions": [
+				"actions",
+				"interactions>interaction"
+			]
+		},
+		{
+			"id": "richtext"
+		},
+		{
+			"id": "search",
+			"pathsToActions": [
+				"selectactions",
+				"resultactions>action>actions",
+				"objects>object>resultactions>action>actions"
+			],
+			"pathsToDataSourceAttributes": [
+				"objects>object:datasource"
+			]
+		},
+		{
+			"id": "skoocal",
+			"customLabelDependencies": [
+				"Add_A_New",
+				"Add_New",
+				"Add_This",
+				"Apply",
+				"Day_Scheduling_View",
+				"Delete",
+				"List_View",
+				"Loading_Calendar_Events",
+				"Month_View",
+				"New_Event",
+				"Required_Fields_have_no_Value",
+				"Row_Selected",
+				"Rows_Selected",
+				"Search",
+				"Select_Event_Type_to_Create",
+				"Show",
+				"View_More",
+				"Week_View"
+			],
+			"js": [
+				{ "resource": "js/calendar.js" }
+			],
+			"pathsToChildComponents": ["sources>eventsource>onclickpopup>components"]
+		},
+		{
+			"id": "skootable",
+			"alwaysLoad": true,
+			"pathsToActions": [
+				"actions",
+				"massactions",
+				"rowactions"
+			],
+			"customLabelDependencies": [
+				"Add_A_New",
+				"Add_All_Visible_Objects",
+				"Add_New",
+				"Add_This",
+				"Apply",
+				"applying_sort_order_change",
+				"Cannot_Find_Object_Question",
+				"Custom_Action",
+				"Column",
+				"Edit_Row",
+				"Export_Data",
+				"Flag_For_Deletion",
+				"List_View",
+				"Mass_Update_Selected_Rows",
+				"Picture_View",
+				"Required_Fields_have_no_Value",
+				"Row_Selected",
+				"Rows_Selected",
+				"Show",
+				"summary_avg",
+				"summary_max",
+				"summary_med",
+				"summary_min",
+				"summary_sum",
+				"Toggle_Selected_Rows_for_Deletion",
+				"Toggle_Edit_Mode_on_Selected_Rows",
+				"Table_Settings",
+				"View_More",
+				"Visible"
+			]
+		},
+		{
+			"id": "skuidfooter",
+			"pathsToChildComponents": [
+				"components"
+			]
+		},
+		{
+			"id": "skuidheader",
+			"pathsToChildComponents": [
+				"components"
+			]
+		},
+		{
+			"id": "skuidpage",
+			"pathsToChildComponents": [
+				"components",
+				"pageregioncontents>pageregioncontent>components"
+			],
+			"pathsToActions": [
+				"resources>actionsequences>actionsequence>actions",
+				"interactions>interaction"
+			],
+			"pathsToDataSourceAttributes": [
+				"styles>styleitem:datasource"
+			],
+			"customLabelDependencies": [
+				"Action",
+				"Actions",
+				"After_This",
+				"All_a_Rows_Loaded_For_b",
+				"All_records_exported_to_CSV",
+				"All_Time",
+				"All_Values",
+				"AM_PM_Markers",
+				"Applying_Filter",
+				"Apply",
+				"Before_This",
+				"Cancel",
+				"Cancelled",
+				"Check_All",
+				"Connected",
+				"Currently_Offline",
+				"Day_Names_Long",
+				"Day_Names_Min",
+				"Day_Names_Short",
+				"Done",
+				"Edit_Page",
+				"End_Date",
+				"Enter_keywords",
+				"Error",
+				"Error_Performing_Requested_Search",
+				"Filter",
+				"Filter_could_not_be_applied",
+				"First",
+				"Greater_Than",
+				"Last",
+				"Less_Than",
+				"Loading",
+				"Load_More",
+				"Month_Names_Long",
+				"Month_Names_Short",
+				"Next",
+				"No_Objects_to_Display",
+				"None_Selected",
+				"Number_Selected",
+				"Objects_Per_Page",
+				"Pagination_Limit_Reached",
+				"Previous",
+				"Reconnecting",
+				"Required_Fields_have_no_Value",
+				"Retrieving_data_for_export",
+				"Retrieving_records_a_to_b",
+				"Save",
+				"Save_Anyway",
+				"Saved",
+				"Saving",
+				"Saving_Offline_Changes",
+				"Select",
+				"Select_Option_None",
+				"Search",
+				"Searching",
+				"Showing_Rows",
+				"Skuid_Page_Problems",
+				"Start",
+				"Start_Date",
+				"Uncheck_All",
+				"Unsaved_Changes_Warning",
+				"Upload",
+				"Uploading",
+				"Upload_Successful",
+				"View"
+			]
+		},
+		{
+			"id": "social"
+		},
+		{
+			"id": "tabset",
+			"pathsToChildComponents": [
+				"tabs>tab>components"
+			],
+			"customLabelDependencies": [
+				"Loading"
+			]
+		},
+		{
+			"id": "template"
+		},
+		{
+			"id": "themecomposer",
+			"js": [
+				{ "resource": "js/lib/CleanCSS.js" },
+				{ "resource": "js/skuidcoreThemeComposer.js" }
+			],
+			"css": [
+				{ "resource": "css/themeBuilder", "path": "style.css" }
+			]
+		},
+		{
+			"id": "themelist",
+			"js": [
+				{ "resource": "js/lib/CleanCSS.js" },
+				{ "resource": "js/skuidcoreThemeList.js" }
+			]
+		},
+		{
+			"id": "wizard",
+			"pathsToChildComponents": ["steps>step>components"],
+			"pathsToActions": ["steps>step>actions"]
+		},
+		{
+			"id": "wrapper",
+			"pathsToChildComponents": [
+				"components"
+			],
+			"pathsToDataSourceAttributes": [
+				"styles>styleitem:datasource"
+			]
+		}
+	],
+	"js": [
+		{ "resource": "js/skuidcoreRuntime.js" }
+	]
+}

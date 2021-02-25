@@ -1,0 +1,10 @@
+<apex:page standardStyleSheets="false"
+        standardController="skuid__Theme__c"
+        title="Skuid Themes" 
+        readonly="true"
+        sidebar="false"
+        showHeader="false"
+        docType="html-5.0"
+        action="{!URLFOR($Page.skuid__DesignSystems)}">
+    <!-- DEPRECATED. Note that this page now should automatically redirect to the DesignSystems VF page. -->
+</apex:page>

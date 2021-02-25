@@ -1,0 +1,27 @@
+@font-face {
+  font-family: 'SalesForce Sans';
+  src: url('webfonts/SalesforceSans-Regular.woff2?orgId=00D5Y000001NMM5') format('woff2'), url('webfonts/SalesforceSans-Regular.woff?orgId=00D5Y000001NMM5') format('woff'), url('webfonts/SalesforceSans-Regular.ttf?orgId=00D5Y000001NMM5') format('truetype');
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'SalesForce Sans';
+  src: url('webfonts/SalesforceSans-Bold.woff2?orgId=00D5Y000001NMM5') format('woff2'), url('webfonts/SalesforceSans-Bold.woff?orgId=00D5Y000001NMM5') format('woff'), url('webfonts/SalesforceSans-Bold.ttf?orgId=00D5Y000001NMM5') format('truetype');
+  font-weight: 700;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'SalesForce Sans';
+  src: url('webfonts/SalesforceSans-Light.woff2?orgId=00D5Y000001NMM5') format('woff2'), url('webfonts/SalesforceSans-Light.woff?orgId=00D5Y000001NMM5') format('woff'), url('webfonts/SalesforceSans-Light.ttf?orgId=00D5Y000001NMM5') format('truetype');
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'SalesForce Sans';
+  src: url('webfonts/SalesforceSans-Italic.woff2?orgId=00D5Y000001NMM5') format('woff2'), url('webfonts/SalesforceSans-Italic.woff?orgId=00D5Y000001NMM5') format('woff'), url('webfonts/SalesforceSans-Italic.ttf?orgId=00D5Y000001NMM5') format('truetype');
+  font-weight: 400;
+  font-style: italic;
+}

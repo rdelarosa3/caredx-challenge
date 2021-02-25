@@ -1,0 +1,384 @@
+.display-none { display: none }
+.acc-header {
+	cursor: pointer;
+	-webkit-touch-callout: none;
+	-webkit-user-select: none;
+	-khtml-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+}
+
+#tb-holder, #tb-nav{
+	z-index: 99;
+}
+
+.z99{
+	z-index: 99!important;
+}
+
+.tb input{
+	color: black;
+}
+
+.tb input[type="checkbox"] {
+	width: auto;
+	float: right;
+}
+.tb .ui-button.ui-state-default {
+	margin: 2px;
+	background: #eee;
+	color: white;
+	box-shadow: none;
+	-moz-box-shadow: none;
+	-webkit-box-shadow: none;
+	border-radius: 0px;
+	-webkit-border-radius: 0px;
+	-moz-border-radius: 0px;
+	border: none;
+}
+
+
+#tb-buttons {
+	margin: 19px 5px 5px 5px;
+}
+#tb-buttons .nx-header-right { margin-top: 2px;}
+.tb-title-button.ui-button.ui-state-default span.ui-button-text {
+	background: white !important;
+	color: black !important;
+	outline: 1px solid black !important;
+}
+#tb-buttons .nx-status {
+	background: white;
+	color: black;
+	outline: 1px solid black;
+	margin: 3px 1px 0px 0px !important;
+}
+#tb-buttons .nx-status .nx-status-text {
+	padding: 4px 8px;
+}
+.tb-title-button.ui-button.ui-state-default span.sk-icon {color: black !important;}
+.tb-title-button.ui-button.ui-state-disabled { cursor: default; }
+.tb-title-button.ui-state-default.ui-state-hover span.ui-button-text{ background: #eee !important;}
+.nx-page{
+	height: 100vh;
+}
+
+.nx-pagetitle-maintitle{
+	font-size: 19.15px;
+	font-weight: 600;
+}
+
+.tb {
+	font-family: 'Open Sans', sans !important;
+	height: 100%;
+	margin-left: 10px;
+	position: absolute;
+	right: 0px;
+	top: 0px;
+	width: 285px;
+	font-size: 12px;
+	color: black;
+	overflow-y: auto;
+}
+
+.tb .ui-button.ui-state-default.tb-title-button {
+	float: right;
+	margin: 4px 3px 2px;
+}
+
+.tb .section {
+	border-bottom: 1px solid #D9D9D9;
+	border-left: 1px solid #D9D9D9;
+	border-right: 1px solid #D9D9D9;
+	margin: 0px 5px;
+	margin-bottom: 5px;
+	padding: 5px 5px;
+	background: white;
+}
+.tb .tb-section-header h2 { font-weight: 600 }
+.tb .tb-section-header .tb-hint { 
+	position: relative;
+	top: -3px;
+	display: inline-block;
+}
+.tb .tb-section-header input[type="checkbox"]{
+	margin: 4px 0 5px;
+}
+.tb .tb-section-accordion {
+	font-size: 1.4em;
+	margin: 0px;
+	padding: 5px 7px;
+	background: #eee;
+	border: 1px solid #D9D9D9;
+	margin: 5px 5px 0px;
+}
+.tb .tb-section-accordion:hover {
+	background: #eeeeee;
+}
+.tb .tb-section-accordion-title{
+	font-weight: 400;
+	word-spacing: 3px;
+	letter-spacing: .32px;
+	color: black;
+}
+.tb .tb-section-accordion .tb-hint { 
+	float: right; 
+	position: relative;
+	bottom: 2px;
+	right: 1px;
+	color: black;
+}
+.tb h2 {
+	font-size: 1.2em;
+	margin: 0px;
+	float: left;
+}
+.tb h3 {
+	font-weight: normal;
+	font-size: 1em;
+	margin: 4px 0px 4px;
+}
+.tb .section .settings { padding: 0px 3px }
+.tb select {
+	width: 100%;
+	max-width: none;
+}
+.tb .tb-widget {
+	margin-bottom: 4px;
+	padding-bottom: 7px;
+	position: relative;
+}
+.tb .tb-tbslider {
+	height: 23px;
+	width: 100%;
+}
+.tb .tb-tbslider input {
+	float: left;
+	width: 45px;
+}
+.tb .tb-tbslider tr td:first-child { width: 30px; }
+.tb .tb-tbslider tr td:last-child {  padding-left: 10px; }
+.tb .ui-slider {
+	font-size: 0px;
+	border: none;
+	border-top: 1px solid black;
+	margin-top: 15px;
+	bottom: 7px;
+	float: left;
+	width: 100%;
+	border-radius: 0;
+}
+.tb .ui-slider-horizontal .ui-slider-handle {
+	font-size: 17px;
+	width: 10px;
+	border-radius: 0px;
+	border: 1px solid #222;
+	background: #EEEEEE;
+	top: -11px;
+	height: 19px;
+}
+.tb .ui-slider-handle.ui-state-hover { border-color: #f0c49B }
+.tb .ui-spinner {
+	border-radius: 0px;
+	border: 1px solid #222;
+	width: 127px;
+}
+.tb .ui-spinner input {
+	width: 104px;
+	margin: 0px;
+	padding: 3px;
+}
+.tb .ui-button.ui-spinner-button{
+	background: #eee;
+	border: none;
+	border-left: 1px solid #aaa;
+	margin: 0px;
+	background: #EEEEEE;
+}
+.tb .ui-button.ui-spinner-button.ui-state-hover { background: #ddd; outline: none; }
+.tb .ui-spinner-down { margin: 0px }
+.tb .ui-spinner .ui-state-default .ui-icon {
+	background-image: url(ui-icons.png) ;
+	color: black;
+	width: 16px;
+	padding-top: 2px;
+}
+.tb .ui-spinner .ui-state-active .ui-icon { background-image: url(ui-icons-light.png) }
+.tb-shadow table { width: 100% }
+.tb-shadow .ui-spinner { width: 100px }
+.tb .grid td {
+	float: left;
+	margin: 5px;
+	width: 25px;
+}
+.tb .grid button {
+	padding: 0px;
+	width: 25px;
+	height: 25px;
+	background: none;
+	border: none;
+	background-color: #eee;
+	background-image: url(grid.png);
+	color: #777;
+}
+.tb .grid button:hover { outline: 1px solid #f0c49B }
+.tb .grid button:focus { outline: none }
+.tb .grid button:active { background-color: #F0DDCC }
+.tb .grid button.selected { background-color: #f0c49B }
+.tb .grid .top { background-position: 100px 0px }
+.tb .grid .right { background-position: 75px 0px }
+.tb .grid .bottom { background-position: 50px 0px }
+.tb .grid .left { background-position: 25px 0px }
+
+.tb .tb-resource{
+	position: relative;
+	background: #f5f5f5;
+	margin-bottom: 22px;
+	padding: 12px 4px;
+	border: 1px solid #ddd;
+}
+.tb .tb-resource-item{ 
+	position: relative; 
+	margin-top: 9px; 
+	border-bottom: 1px solid #ccc;
+	padding-bottom: 3px;
+}
+.tb .tb-resource .tb-resource-label:after{
+	content: ".";
+	display: block;
+	height: 0;
+	clear: both;
+	visibility: hidden;
+}
+.tb-resource-addcontainer{
+	width: 100%;
+	text-align: right;
+}
+.tb .tb-resource-add{
+	margin-top: 7px;
+	text-align: right;
+	padding: 5px 10px;
+	font-size: 14px;
+	cursor: pointer;
+	border: 1px solid black;
+	display: inline-block;
+}
+.tb .tb-resource-add:hover{
+	background: #eee;
+}
+.tb .tb-resource-remove{
+	padding: 0px 1px 1px;
+	cursor: pointer;
+	border: 1px solid black;
+	position: absolute;
+	right: 4px;
+	top: 4px;
+	background: white;
+}
+.tb .tb-resource-remove:hover{
+	background: #eee;
+}
+.tb .tb-resource-item input {
+	padding: 3px;
+	margin: 0px 0 4px;
+	display: block;
+}
+
+.tb .tb-resource.disabled input, .tb .tb-resource.disabled select {
+	cursor: not-allowed;
+	opacity: 0.5;
+}
+
+.tb .tb-field-checkbox{
+		border-bottom: 1px dashed #ddd;
+		padding: 4px 0px;
+		margin: 11px 0px;
+}
+.tb .tb-field-checkbox input[type=checkbox]{
+	 margin: 2px 0px 0px 0px;
+}
+.tb-inlinecss-button-code {
+	float: right;
+	display: block;
+	border: 1px solid black;
+	padding: 6px 7px;
+	cursor: pointer;
+}
+.tb-inlinecss-button-code:hover {
+ background: #eee;
+}
+
+/*Nav stuff*/
+#tb-nav {
+	background: #fff;
+	font-family: 'Open Sans', sans;
+	top: 0px;
+	left: 0px;
+	border: 1px solid rgb(217, 217, 217);
+	margin-top: 5px;
+	position: absolute;
+	width: 117px;
+	margin-left:5px;
+}
+
+#tb-nav ul {
+	padding: 0px;
+	margin: 0px;
+}
+
+#tb-nav li {
+	box-sizing: border-box;
+	list-style: none;
+	padding: 5px;
+	cursor: pointer;
+	height: 32px;
+	color: black;
+	font-size: 16px;
+	margin-left: 0;
+}
+
+#tb-nav li.selected, #tb-nav li.selected:hover {
+	background: #eeeeee
+}
+
+#tb-nav li:hover {
+	background: #F7F7F7;
+}
+
+.tb-example-tabset{
+		height: 300px;
+}
+
+.sk-colorpicker-popup{
+	z-index: 100 !important;
+	background: white;
+	border: 1px solid gray;
+	box-shadow: 0px 0px 2px 0px #bbb;
+}
+.sk-colorpicker .nx-field input{
+	background: white;
+	border: 1px solid #aaa;
+}
+
+.sk-colorpicker-hsl > .sk-colorpicker-slider > .ui-slider-handle{
+		box-shadow: 0px 0px 2px 0px rgba(200, 200, 200, .9);
+}
+
+#cover-up{
+	position: fixed;
+	left: 0px;
+	top: 0px;
+	width: 100%;
+	height: 100%;
+	z-index: 99;
+	background: white;
+}
+.sk-headerwrapper{
+	position: inherit;
+}
+
+.tb-palette-color{
+	position: relative;
+	padding: 0px 0px 7px;
+}

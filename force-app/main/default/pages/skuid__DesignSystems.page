@@ -1,0 +1,13 @@
+<apex:page standardStyleSheets="false"
+        standardController="skuid__Theme__c"
+        title="Skuid Design Systems" 
+        readonly="true"
+        sidebar="false"
+        showHeader="false"
+        docType="html-5.0"
+        extensions="skuid.ThemeComposerController">
+    <head>
+        <title>Skuid Design Systems</title>
+    </head>
+    <c:page page="DesignSystemList"/>
+</apex:page>

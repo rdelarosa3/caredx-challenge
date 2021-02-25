@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="88px" height="88px" viewBox="0 0 88 88" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 53.2 (72643) - https://sketchapp.com -->
+    <title>Jira</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="68.1371429%" y1="40.3225806%" x2="40.4687464%" y2="81.6589862%" id="linearGradient-1">
+            <stop stop-color="#0052CC" offset="18%"></stop>
+            <stop stop-color="#2684FF" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="32.2337899%" y1="59.180856%" x2="59.6252766%" y2="17.9935573%" id="linearGradient-2">
+            <stop stop-color="#0052CC" offset="18%"></stop>
+            <stop stop-color="#2684FF" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="Jira" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <rect fill="#FFFFFF" opacity="0" x="0" y="0" width="88" height="88"></rect>
+        <rect id="Rectangle" x="0" y="0" width="88" height="88"></rect>
+        <g id="jira-software-mark-contained-gradient-blue" transform="translate(9.000000, 9.000000)" fill-rule="nonzero">
+            <path d="M67.1856342,33.0416763 L36.8993364,2.93345614 L33.9339044,0 L33.9339044,0 L11.2475391,22.6778724 L11.2475391,22.6778724 L0.828015538,33.0416763 C0.298467478,33.557131 0,34.2630308 0,35 C0,35.7369692 0.298467478,36.442869 0.828015538,36.9583237 L21.5860398,57.6698135 L33.9339044,70 L56.7661107,47.3221276 L57.1226107,46.967534 L67.1856342,36.9583237 C68.2714553,35.8761349 68.2714553,34.1238651 67.1856342,33.0416763 Z M33.9339044,45.3557449 L23.5629945,35.0080589 L33.9339044,24.660373 L44.3372234,35.0080589 L33.9339044,45.3557449 Z" id="Shape" fill="#2684FF"></path>
+            <path d="M35,24.5967742 C28.1146836,17.79116 28.1146836,6.80561416 35,0 L12,22.6612903 L24.5678571,35 L35,24.5967742 Z" id="Path" fill="url(#linearGradient-1)"></path>
+            <path d="M44.5301205,35 L34,45.3727566 C40.8749272,52.1764483 40.8749272,63.1963082 34,70 L34,70 L57,47.3216751 L44.5301205,35 Z" id="Path" fill="url(#linearGradient-2)"></path>
+        </g>
+    </g>
+</svg>

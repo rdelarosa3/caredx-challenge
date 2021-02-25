@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="88px" height="88px" viewBox="0 0 88 88" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 53.2 (72643) - https://sketchapp.com -->
+    <title>Lambda</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Lambda" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <rect fill="#FFFFFF" opacity="0" x="0" y="0" width="88" height="88"></rect>
+        <rect id="Rectangle" x="0" y="0" width="88" height="88"></rect>
+        <g id="Compute_AWSLambda" transform="translate(15.000000, 9.000000)" fill-rule="nonzero">
+            <polygon id="Path" fill="#9D5025" points="0.754 55.1 4.35 56.9083333 10.7051429 35.0333333 4.35 13.0916667 0.754 14.9"></polygon>
+            <polygon id="Path" fill="#F58536" points="11.31 14.7583333 4.35 13.1166667 4.35 56.9083333 11.31 55.2666667"></polygon>
+            <polygon id="Path" fill="#9D5025" points="8.67514286 10.9166667 13.9531429 8.25833333 20.5402857 35.0333333 13.9531429 61.7416667 8.67514286 59.0833333"></polygon>
+            <polygon id="Path" fill="#F58536" points="24.766 58.175 13.9531429 61.6416667 13.9531429 8.25833333 24.766 11.7333333"></polygon>
+            <polygon id="Path" fill="#9D5025" points="49.3165714 17.6416667 53.6417143 17.6416667 53.6417143 50.9333333 49.3165714 50.6916667"></polygon>
+            <polygon id="Path" fill="#6B3A19" points="32.538 18.125 37.3934286 15.6083333 53.302 17.6416667 53.7742857 21.9 49.416 22.5166667"></polygon>
+            <polygon id="Path" fill="#FBBF93" points="32.6788571 51.875 37.526 54.3916667 53.9068571 48.0916667 49.5568571 47.4833333"></polygon>
+            <polygon id="Path" fill="#9D5025" points="33.9051429 44.8083333 42.5637143 45.975 42.5637143 24.025 33.9051429 25.1833333"></polygon>
+            <polygon id="Path" fill="#9D5025" points="20.5402857 65.05 28.9917143 69.3 36.25 34.95 28.9917143 0.7 20.5402857 4.95"></polygon>
+            <path d="M29,0.7 L29,69.3 L57.2542857,55.0916667 L57.2542857,14.9083333 L29,0.7 Z M53.6417143,48.1416667 L37.4431429,53.0333333 L37.4431429,16.9666667 L53.6334286,21.85 L53.6417143,48.1416667 Z" id="Shape" fill="#F58536"></path>
+            <polygon id="Path" fill="#F58536" points="42.5637143 24.025 42.5637143 46.0416667 51.5702857 35.0333333"></polygon>
+        </g>
+    </g>
+</svg>

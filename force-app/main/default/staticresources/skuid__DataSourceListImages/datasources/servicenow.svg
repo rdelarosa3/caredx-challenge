@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="88px" height="88px" viewBox="0 0 88 88" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 53.2 (72643) - https://sketchapp.com -->
+    <title>ServiceNow</title>
+    <desc>Created with Sketch.</desc>
+    <g id="ServiceNow" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <rect fill="#FFFFFF" opacity="0" x="0" y="0" width="88" height="88"></rect>
+        <g id="servicenow-header-logo">
+            <rect id="Rectangle" x="0" y="0" width="88" height="88"></rect>
+            <path d="M44.5,11 C24.79,11 8,27.2796495 8,47.6292114 C8,58.3589804 12.38,67.9787733 19.315,75.008622 C21.87,77.5985662 25.885,77.5985662 28.805,75.378614 C32.82,72.0486857 38.295,70.1987255 44.5,70.1987255 C50.705,70.1987255 55.815,72.0486857 60.195,75.378614 C63.115,77.5985662 67.13,77.2285742 69.685,74.6386299 C76.62,67.9787733 81,58.3589804 81,47.6292114 C80.635,27.6496416 64.575,11 44.5,11 M44.135,66.4988052 C33.55,66.4988052 25.885,58.3589804 25.885,47.9992034 C25.885,37.6394265 33.185,29.4996017 44.135,29.4996017 C55.085,29.4996017 62.385,38.0094185 62.385,47.9992034 C62.385,57.9889884 55.085,66.4988052 44.135,66.4988052" id="Shape" fill="#82B6A1"></path>
+        </g>
+    </g>
+</svg>

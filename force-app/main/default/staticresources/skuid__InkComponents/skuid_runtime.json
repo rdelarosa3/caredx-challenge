@@ -1,0 +1,422 @@
+{
+	"id": "skuid",
+	"namespace": "skuid",
+	"customLabelNamespace": "skuid",
+	"components": [
+		{
+			"id": "autocomplete"
+		},
+		{
+			"id": "slider"
+		},
+		{
+			"id": "tabContainer",
+			"pathsToChildComponents": [
+				"tabs"
+			]
+		},
+		{
+			"id": "tabSet",
+			"pathsToChildComponents": [
+				"tabs"
+			]
+		},
+		{
+			"id": "tabPanel",
+			"pathsToActions": [
+				"actions"
+			],
+			"pathsToChildComponents": [
+				"components"
+			]
+		},
+		{
+			"id": "buttonSet",
+			"pathsToChildComponents": [
+				"groups"
+			]
+		},
+		{
+			"id": "buttonGroup",
+			"pathsToChildComponents": [
+				"buttons"
+			]
+		},
+		{
+			"id": "button",
+			"pathsToActions": [
+				"actions"
+			]
+		},
+		{
+			"id": "accordion",
+			"pathsToChildComponents": [
+				"sections>section>components"
+			]
+		},
+		{
+			"id": "avatar",
+			"pathsToDataSourceAttributes": [
+				":datasource"
+			]
+		},
+		{
+			"id": "code"
+		},
+		{
+			"id": "chatbotFullOverlay"
+		},
+		{
+			"id": "badge"
+		},
+		{
+			"id": "deck",
+			"pathsToChildComponents": ["components"]
+		},
+		{
+			"id": "dialog",
+			"pathsToActions": [
+				"actions"
+			],
+			"pathsToChildComponents": [
+				"components"
+			]
+		},
+		{
+			"id": "dynamicComponentsContainer"
+		},
+		{
+			"id": "icon"
+		},
+		{
+			"id": "image",
+			"pathsToDataSourceAttributes": [
+				":datasource"
+			]
+		},
+		{
+			"id": "field"
+		},
+		{
+			"id": "file",
+			"customLabelDependencies": [
+				"Error_Exceeds_Max_File_Size",
+				"Error_Invalid_File_Upload_Data_Source",
+				"Error_Could_Not_Find_Upload_Method"
+			],
+			"pathsToDataSourceAttributes": [
+				":datasource"
+			]
+		},
+		{
+			"id": "grid",
+			"pathsToChildComponents": [
+				"divisions>division>components"
+			]
+		},
+		{
+			"id": "heading"
+		},
+		{
+			"id": "header"
+		},
+		{
+			"id": "layoutRegion",
+			"pathsToChildComponents": [
+				"components"
+			]
+		},
+		{
+			"id": "masthead",
+			"pathsToChildComponents": [
+				"divisions>division>components"
+			]
+		},
+		{
+			"id": "header"
+		},
+		{
+			"id": "inputText"
+		},
+		{
+			"id": "inputTextArea"
+		},
+		{
+			"id": "messageArea"
+		},
+		{
+			"id": "messageBlock"
+		},
+		{
+			"id": "select"
+		},
+		{
+			"id": "checkboxList"
+		},
+		{
+			"id": "checkbox"
+		},
+		{
+			"id": "radioList"
+		},
+		{
+			"id": "list"
+		},
+		{
+			"id": "modal",
+			"pathsToActions": [
+				"actions"
+			],
+			"pathsToChildComponents": [
+				"components"
+			]
+		},
+		{
+			"id": "navigation",
+			"hasServerDependencies": true
+		},
+		{
+			"id": "verticalNavigation",
+			"hasServerDependencies": true
+		},
+		{
+			"id": "search",
+			"pathsToActions": [
+				"selectActions",
+				"resultActions>action>actions",
+				"objects>object>resultActions>action>actions"
+			],
+			"pathsToDataSourceAttributes": [
+				"objects>object:datasource"
+			]
+		},
+		{
+			"id": "slidingPanel",
+			"pathsToChildComponents": [
+				"components"
+			]
+		},
+		{
+			"id": "table",
+			"pathsToActions": [
+				"actions",
+				"massActions",
+				"rowActions"
+			],
+			"customLabelDependencies": [
+				"Export_Data"
+			]
+		},
+		{
+			"id": "text"
+		},
+		{
+			"id": "toast"
+		},
+		{
+			"id": "tooltip"
+		},
+		{
+			"id": "pagination"
+		},
+		{
+			"id": "form",
+			"pathsToChildComponents": ["sections>section>rows>row>fields"]
+		},
+		{
+			"id": "filter"
+		},
+		{
+			"id": "filterSet",
+			"pathsToChildComponents": [
+				"filters"
+			],
+			"customLabelDependencies": [
+				"Search"
+			]
+		},
+		{
+			"id": "chart",
+			"js": [
+				{ "resource": "js/lib/highcharts.js" },
+				{ "resource": "js/skuidvisRuntime.js" },
+				{ "resource": "js/skuidvisCharts.js" }
+			]
+		},
+		{
+			"id": "chartSet",
+			"pathsToChildComponents": [
+				"charts"
+			],
+			"js": [
+				{ "resource": "js/lib/highcharts.js" },
+				{ "resource": "js/skuidvisRuntime.js" },
+				{ "resource": "js/skuidvisCharts.js" }
+			]
+		},
+		{
+			"id": "geochart",
+			"js": [
+				{ "resource": "js/lib/highcharts.js" },
+				{ "resource": "js/lib/highmaps.js" },
+				{ "resource": "js/skuidvisRuntime.js" },
+				{ "resource": "js/skuidvisCharts.js" },
+				{ "resource": "js/skuidvisGeoChart.js" }
+			]
+		},
+		{
+			"id": "wizard",
+			"pathsToChildComponents": [
+				"steps>step>components"
+			],
+			"pathsToActions": [
+				"steps>step>buttons>button>actions"
+			]
+		},
+		{
+			"id": "designSystemManager"
+		},
+		{
+			"id": "chatter",
+			"pathsToActions": [
+				"actions"
+			]
+		},
+		{
+			"id": "wrapper",
+			"pathsToChildComponents": [
+				"components"
+			]
+		},
+		{
+			"id": "page",
+			"pathsToChildComponents": [
+				"components",
+				"pageregioncontents>pageregioncontent>components"
+			],
+			"pathsToActions": [
+				"resources>actionsequences>actionsequence>actions",
+				"interactions>interaction"
+			],
+			"pathsToDataSourceAttributes": [
+				"styles>styleitem:datasource"
+			],
+			"customLabelDependencies": [
+				"Action",
+				"Actions",
+				"After_This",
+				"All_a_Rows_Loaded_For_b",
+				"All_records_exported_to_CSV",
+				"All_Time",
+				"All_Values",
+				"AM_PM_Markers",
+				"Applying_Filter",
+				"Apply",
+				"Before_This",
+				"Cancel",
+				"Cancelled",
+				"Check_All",
+				"Connected",
+				"Currently_Offline",
+				"Day_Names_Long",
+				"Day_Names_Min",
+				"Day_Names_Short",
+				"Datepicker_CurrentText",
+				"Done",
+				"Edit_Page",
+				"End_Date",
+				"Enter_keywords",
+				"Error",
+				"Error_Performing_Requested_Search",
+				"Filter",
+				"Filter_could_not_be_applied",
+				"First",
+				"Greater_Than",
+				"Last",
+				"Less_Than",
+				"Loading",
+				"Load_More",
+				"Month_Names_Long",
+				"Month_Names_Short",
+				"Next",
+				"No_Objects_to_Display",
+				"None_Selected",
+				"Number_Selected",
+				"Objects_Per_Page",
+				"Pagination_Limit_Reached",
+				"Previous",
+				"Reconnecting",
+				"Required_Fields_have_no_Value",
+				"Retrieving_data_for_export",
+				"Retrieving_records_a_to_b",
+				"Save",
+				"Save_Anyway",
+				"Viewing_a_b_of_c",
+				"Saved",
+				"Saving",
+				"Saving_Offline_Changes",
+				"Select",
+				"Select_Option_None",
+				"Search",
+				"Searching",
+				"Showing_Rows",
+				"Skuid_Page_Problems",
+				"Skuid_Page_Problems_No_Click",
+				"Start",
+				"Start_Date",
+				"Uncheck_All",
+				"Unsaved_Changes_Warning",
+				"Upload",
+				"Uploading",
+				"Upload_Successful",
+				"View"
+			]
+		},
+				{
+			"id": "pageBuilder",
+			"customLabelDependencies": [
+				"Add_Drilldown",
+				"Building_Page",
+				"Clone",
+				"Components",
+				"Day_Scheduling_View",
+				"Edit_Rows_Action",
+				"File_Resource",
+				"Flag_for_Delete_Action",
+				"Invalid_Data_Source",
+				"Invalid_Data_Source_Type",
+				"Mass_Update_Selected_Rows",
+				"Models",
+				"Module",
+				"Month_View",
+				"No_Module",
+				"None_Option_Text",
+				"Page_Regions",
+				"Preview",
+				"Properties",
+				"pb_No_properties_renderer",
+				"pb_No_component_renderer",
+				"Remove",
+				"Redo",
+				"Resources",
+				"Toggle_Edit_Mode_on_Selected_Rows",
+				"Toggle_Selected_Rows_for_Deletion",
+				"Undo",
+				"Week_View"
+			],
+			"hasServerDependencies": true
+		},
+		{
+			"id": "pageInclude",
+			"pathsToChildComponents": [
+				"components"
+			]
+		},
+		{
+			"id": "pageRegion"
+		}
+	],
+	"js": [
+		{ "resource": "js/skuidRuntime.js" }
+	]
+}

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="88px" height="88px" viewBox="0 0 88 88" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 53.2 (72643) - https://sketchapp.com -->
+    <title>RedShift</title>
+    <desc>Created with Sketch.</desc>
+    <g id="RedShift" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <rect fill="#FFFFFF" opacity="0" x="0" y="0" width="88" height="88"></rect>
+        <rect id="Rectangle" x="0" y="0" width="88" height="88"></rect>
+        <g id="Analytics_AmazonRedshift" transform="translate(12.000000, 9.000000)" fill-rule="nonzero">
+            <polygon id="Path" fill="#5294CF" points="58.0297143 10.15 63.2411429 12.6828947 63.2411429 57.1789474 58.0297143 59.7210526 49.7828571 35"></polygon>
+            <polygon id="Path" fill="#205B99" points="5.97028571 10.15 0.768 12.6828947 0.768 57.1789474 5.97028571 59.7210526 18.9897143 35"></polygon>
+            <polygon id="Path" fill="#205B99" points="32 53.3197368 58.0297143 59.7026316 58.0297143 10.15 32 16.5328947"></polygon>
+            <polygon id="Path" fill="#5294CF" points="32 53.3197368 5.97028571 59.7026316 5.97028571 10.15 32 16.5328947"></polygon>
+            <polygon id="Path" fill="#5294CF" points="38.2445714 69.6131579 48.2011429 64.6118421 48.2011429 5.38815789 38.2445714 0.386842105 28.3611429 33.3052632"></polygon>
+            <polygon id="Path" fill="#205B99" points="25.7554286 69.6131579 15.808 64.6118421 15.808 5.38815789 25.7554286 0.386842105 34.6057143 35"></polygon>
+            <rect id="Rectangle" fill="#2E73B8" x="25.7554286" y="0.386842105" width="12.4982857" height="69.2263158"></rect>
+        </g>
+    </g>
+</svg>

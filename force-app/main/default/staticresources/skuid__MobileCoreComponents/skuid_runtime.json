@@ -1,0 +1,167 @@
+{
+	"id": "skuidmobilecore",
+	"namespace": "skuid",
+	"platform": "salesforce",
+	"customLabelNamespace": "skuid",
+	"components": [
+		{
+			"id": "skuidmobile",
+			"pathsToChildComponents": [
+				"mobilepanels>mobilepanel>components",
+				"mobilenavs>mobilenav>components"
+			]
+		},
+		{
+			"id": "mobiledeck",
+			"pathsToChildComponents": [
+				"components"
+			]
+		},
+		{
+			"id": "mobilegrid",
+			"pathsToChildComponents": [
+				"divisions"
+			]
+		},
+		{ "id": "mobilebutton" },
+		{ "id": "template" },
+		{ "id": "mobiletitle" },
+		{ "id": "mobileinfo" },
+		{ "id": "mobilefield" },
+		{
+			"id": "division",
+			"pathsToChildComponents": [
+				"components"
+			]
+		},
+		{
+			"id": "mobilewrapper",
+			"pathsToChildComponents": [
+				"components"
+			]
+		},
+		{
+			"id": "mobileimage",
+			"pathsToDataSourceAttributes": [":datasource"]
+		},
+		{ "id": "custom" },
+		{
+			"id": "file",
+			"customLabelDependencies": [
+				"Error_Exceeds_Max_File_Size",
+				"Error_Invalid_File_Upload_Data_Source",
+				"Error_Could_Not_Find_Upload_Method"
+			],
+			"pathsToDataSourceAttributes": [":datasource"]
+	    },
+		{
+			"id": "mobilepagebuilder",
+			"customLabelDependencies": [
+				"Add_Drilldown",
+				"Building_Page",
+				"Clone",
+				"Components",
+				"Edit_Rows_Action",
+				"File_Resource",
+				"Flag_for_Delete_Action",
+				"Invalid_Data_Source",
+				"Invalid_Data_Source_Type",
+				"Models",
+				"Module",
+				"No_Module",
+				"None_Option_Text",
+				"Page_Regions",
+				"Preview",
+				"Properties",
+				"pb_No_properties_renderer",
+				"pb_No_component_renderer",
+				"Remove",
+				"Resources",
+				"Toggle_Edit_Mode_on_Selected_Rows",
+				"Toggle_Selected_Rows_for_Deletion"
+			]
+		},
+		{
+			"id": "skuidpage",
+			"pathsToChildComponents": [
+				"components",
+				"pageregioncontents>pageregioncontent>components"
+			],
+			"pathsToActions": [
+				"resources>actionsequences>actionsequence>actions",
+				"interactions>interaction"
+			],
+			"customLabelDependencies": [
+				"Action",
+				"Actions",
+				"After_This",
+				"All_a_Rows_Loaded_For_b",
+				"All_records_exported_to_CSV",
+				"All_Time",
+				"All_Values",
+				"AM_PM_Markers",
+				"Applying_Filter",
+				"Apply",
+				"Before_This",
+				"Cancel",
+				"Cancelled",
+				"Check_All",
+				"Connected",
+				"Currently_Offline",
+				"Day_Names_Long",
+				"Day_Names_Min",
+				"Day_Names_Short",
+				"Done",
+				"Edit_Page",
+				"End_Date",
+				"Enter_keywords",
+				"Error",
+				"Error_Performing_Requested_Search",
+				"Filter",
+				"Filter_could_not_be_applied",
+				"First",
+				"Greater_Than",
+				"Last",
+				"Less_Than",
+				"Loading",
+				"Load_More",
+				"Month_Names_Long",
+				"Month_Names_Short",
+				"Next",
+				"No_Objects_to_Display",
+				"None_Selected",
+				"Number_Selected",
+				"Objects_Per_Page",
+				"Pagination_Limit_Reached",
+				"Previous",
+				"Reconnecting",
+				"Required_Fields_have_no_Value",
+				"Retrieving_data_for_export",
+				"Retrieving_records_a_to_b",
+				"Save",
+				"Save_Anyway",
+				"Saved",
+				"Saving",
+				"Saving_Offline_Changes",
+				"Select",
+				"Select_Option_None",
+				"Search",
+				"Searching",
+				"Showing_Rows",
+				"Skuid_Page_Problems",
+				"Start",
+				"Start_Date",
+				"Uncheck_All",
+				"Unsaved_Changes_Warning",
+				"Upload",
+				"Uploading",
+				"Upload_Successful",
+				"View"
+			]
+		}
+	],
+	"folders": [],
+	"js": [
+		{ "resource": "js/skuidmobilecoreRuntime.js" }
+	]
+}

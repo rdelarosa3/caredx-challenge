@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="88px" height="88px" viewBox="0 0 88 88" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 53.2 (72643) - https://sketchapp.com -->
+    <title>Polly</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Polly" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <rect fill="#FFFFFF" opacity="0" x="0" y="0" width="88" height="88"></rect>
+        <g>
+            <rect id="Rectangle" x="0" y="0" width="88" height="88"></rect>
+            <g id="AI_AmazonPolly" transform="translate(14.000000, 9.000000)" fill-rule="nonzero">
+                <polygon id="Path" fill="#205B99" points="30 0 0.711428571 14.5804878 0.711428571 55.4195122 30 70 59.2885714 55.4195122 59.2885714 14.5804878"></polygon>
+                <polygon id="Path" fill="#5294CF" points="30 0 30 70 59.2885714 55.4195122 59.2885714 14.5804878"></polygon>
+                <polygon id="Path" fill="#19486F" points="3.01714286 18.2170732 5.10857143 20.9060976 13.7057143 20.0695122 24.8657143 16.9792683 24.8657143 9.75731707"></polygon>
+                <polygon id="Path" fill="#19486F" points="24.8657143 20.6158537 24.8657143 27.5817073 5.31428571 29.0414634 3.01714286 25.4390244"></polygon>
+                <polygon id="Path" fill="#19486F" points="24.8657143 31.3890244 24.8657143 33.1390244 16.86 35.9731707 3.01714286 32.6012195"></polygon>
+                <polygon id="Path" fill="#19486F" points="35.1085714 19.3865854 35.1085714 9.75731707 57.1285714 18.3195122 53.7514286 25.7207317 50.2714286 23.0146341"></polygon>
+                <polygon id="Path" fill="#19486F" points="38.5628571 26.1987805 38.5628571 32.3878049 40.8085714 32.4817073 45.2914286 35.0256098 47.9314286 27.5646341"></polygon>
+                <polygon id="Path" fill="#5294CF" points="3.01714286 23.0231707 3.01714286 18.2170732 13.7057143 20.0695122"></polygon>
+                <polygon id="Path" fill="#5294CF" points="3.01714286 30.2536585 24.8657143 27.8463415 24.8657143 27.5817073 3.01714286 25.4390244"></polygon>
+                <polygon id="Path" fill="#5294CF" points="3.01714286 37.3987805 22.4314286 37.8426829 24.8657143 36.8609756 24.8657143 33.1390244 3.01714286 32.6012195"></polygon>
+                <polygon id="Path" fill="#5294CF" points="24.8657143 42.4353659 24.8657143 42.204878 3.01714286 39.7890244 3.01714286 44.5865854 21.5828571 46.6695122"></polygon>
+                <polygon id="Path" fill="#5294CF" points="13.6885714 49.9390244 3.00857143 47.104878 3.01714286 51.7743902 12.8742857 53.5926829"></polygon>
+                <polygon id="Path" fill="#99BCE3" points="24.8657143 38.6109756 24.8657143 36.8609756 3.01714286 37.3987805"></polygon>
+                <polygon id="Path" fill="#99BCE3" points="24.8657143 49.4268293 24.8657143 42.4353659 3.01714286 44.5865854"></polygon>
+                <polygon id="Path" fill="#99BCE3" points="18.3171429 51.2195122 13.6885714 49.9390244 3.01714286 51.7743902 18.3171429 57.7073171"></polygon>
+                <polygon id="Path" fill="#205B99" points="57.1285714 18.3195122 50.2714286 23.0146341 50.2714286 46.9512195 49.1057143 50.9463415 57.1114286 51.7146341"></polygon>
+                <polygon id="Path" fill="#205B99" points="47.9314286 27.5646341 40.8085714 32.4817073 40.8085714 37.5182927 40.8085714 41.2573171 47.9314286 42.554878"></polygon>
+                <polygon id="Path" fill="#99BCE3" points="40.8085714 37.5182927 38.5628571 37.6378049 38.5628571 43.9036585 47.9314286 42.554878"></polygon>
+                <polygon id="Path" fill="#99BCE3" points="35.1085714 60.2341463 57.1114286 51.7146341 50.2714286 46.9512195 35.1085714 50.7073171"></polygon>
+            </g>
+        </g>
+    </g>
+</svg>

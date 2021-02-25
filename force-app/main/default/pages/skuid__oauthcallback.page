@@ -1,0 +1,5 @@
+<apex:page showHeader="false" sidebar="false" showChat="false">
+	<script src="{!URLFOR($Resource.skuid__v1, 'js/vendor.js')}"></script>
+    <script src="{!URLFOR($Resource.skuid__v1, 'js/models/oAuthClient.js')}"></script>
+    You have been successfully authenticated! This window should close momentarily...
+</apex:page>

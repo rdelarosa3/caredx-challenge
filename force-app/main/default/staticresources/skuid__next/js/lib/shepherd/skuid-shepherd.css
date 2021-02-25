@@ -1,0 +1,189 @@
+.shepherd-has-title .skuid-step .shepherd-content .shepherd-header {
+    padding: 16px 0 0px 0;
+    background: transparent;
+}
+/* Disable all children of a disabled target 
+ * https://github.com/shipshapecode/shepherd/issues/561
+ * Resolved in a future Shepherd release?
+ */
+.shepherd-modal-target.shepherd-enabled.shepherd-target[style*='pointer-events: none'] * {
+  pointer-events: none!important;
+}
+.intro-step.skuid-step.shepherd-element {border : 0}
+.skuid-step.shepherd-element {
+    min-width: 352px;
+    box-sizing: border-box;
+    border-radius: 3px;
+    background-color: #FFFFFF;
+    font-family: Roboto,Helvetica,sans-serif;
+    box-shadow: 0 7px 6px 0 rgba(0,0,0,0.23), 0 3px 6px 0 rgba(0,0,0,0.16);
+    background-color: white;
+}
+.skuid-step.shepherd-element.extra-dropshadow {
+    box-shadow: 0 7px 6px 0 rgba(0,0,0,0.23), 0 3px 6px 0 rgba(0,0,0,0.16), -9px 9px 13px 5px rgba(0,0,0,0.16);
+}
+
+.skuid-step .shepherd-content {
+    padding: 32px 32px 24px 32px;
+    border-radius: 3px;
+    border-left: 3px blue;
+}
+
+button.shepherd-cancel-icon {
+    font-weight: 100;
+    position: absolute;
+    top: 18px;
+    right: 24px;
+}
+
+.intro-step .shepherd-content .shepherd-cancel-icon {
+    color: white;
+}
+
+.shepherd-progress-indicator {
+    font-family: Roboto,Helvetica,sans-serif;
+    font-size: 9px;
+    font-weight: 400;
+    letter-spacing: 0.6px;
+    line-height: 16px;
+    text-transform: uppercase;
+    text-align: left;
+    color: #8D9096;
+    margin-right: 16px;
+}
+.skuid-step .shepherd-title {
+    color: #4B4E54;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 15px;
+}
+.skuid-step .shepherd-text {
+    color: #4B4E54;
+    font-family: Roboto,Helvetica,sans-serif;
+    font-size: 13px;
+    text-align: left;
+    line-height: 20px;
+    padding: 16px 0 24px 0;
+}
+.skuid-step .shepherd-button {
+    background-color: #FFFFFF;
+    color: #005CB9;
+    font-family: Roboto,Helvetica,sans-serif;
+    font-weight: 500;
+    font-size: 11px;
+    letter-spacing: 0.73px;
+    text-align: center;
+    padding: 13px 16px 13px 0px;
+    margin-left: 0;
+    margin-right: auto;
+}
+.skuid-step .shepherd-button:hover {
+    background:transparent;
+    text-decoration: underline;
+    text-underline-position: under;
+}
+.skuid-step .shepherd-button.cta-button  {
+    background-color: #005CB9;
+    color: #FFFFFF;
+    padding: 13px 16px 13px 16px;
+}
+.skuid-step.cta-button.shepherd-button:hover {
+    background: #004790;
+    border-bottom: 0;
+    text-decoration: none;
+}
+.button-left-align-force {
+  margin-right: auto !important;
+}
+.sk-tr__button--disabled {
+    pointer-events: none !important;
+    opacity: .25;
+}
+.sk-tr__element--disabled {
+    pointer-events: none !important;
+}
+
+.skuid-step .shepherd-footer {
+    padding: 0;
+}
+
+/* Proper borders */
+.tippy-tooltip {
+    border-left: 3px solid #005CB9;
+}
+
+.tippy-tooltip.intro-step {
+    border-left: 0;
+}
+
+/* Tippy arrow adjustments */
+
+
+.tippy-tooltip[data-placement^=top] .tippy-arrow {bottom: 0 !important; border-bottom-color: rgb(255, 255, 255) !important;}
+.tippy-tooltip[data-placement^=right] .tippy-arrow {left:0 !important;} 
+.tippy-tooltip[data-placement^=bottom] .tippy-arrow {top:0 !important; border-bottom-color: rgb(255, 255, 255) !important;}
+.tippy-tooltip[data-placement^=left] .tippy-arrow {right:0 !important}
+
+/* Intro step special styling */
+
+.intro-step .shepherd-progress-indicator {
+    display: none;
+}
+.intro-step.shepherd-element {
+    background: linear-gradient(180deg, #0072C6 0%, #0056AE 100%);
+    width: 500px
+    
+}
+.intro-step .shepherd-content {
+    padding: 38px 38px 38px 38px;
+    background: inherit;
+    text-shadow: 0 0 black;
+}
+
+.intro-step .shepherd-text {
+    color: #f8f8f8;
+    font-size: 13px;
+    letter-spacing: 0.5px;
+    padding: 24px 0 24px 0;
+}
+
+.intro-step .shepherd-title {
+    font-size: 24px;
+    color: #EAF4FF;
+    font-weight: 400;
+    line-height: 32px;
+}
+
+.intro-step .shepherd-button {
+    background-color: #0AC0BE;
+    color: #FFFFFF;
+    font-weight: 500;
+    line-height: 13px;
+    padding: 13px 16px 13px 16px;
+}
+
+.intro-step.shepherd-button:hover {
+    text-decoration: none;
+    background-color: #008A87;
+    color: #FFFFFF;
+}
+.tippy-popper.shepherd.shepherd-has-title.sliding-panel {
+    right: -238px;
+    position: fixed;
+    top: 50%;
+    left: unset !important;
+    height: 100vh;
+    margin-top: 0px !important;
+    top: 0;
+    padding-top: 32px !important;
+    height: 100vh !important;
+    width: 475px !important;
+    z-index: 9999 !important;
+    border-left: 1px solid #69646421 !important;
+    display: block !important;
+    background: white !important;
+    transition: right .2s ease !important;
+}
+.tippy-popper.shepherd.shepherd-has-title.closed-panel {
+    right: -1000px;
+}

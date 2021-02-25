@@ -1,0 +1,325 @@
+{
+	"fontConfig": {
+		"google": {
+			"families": [
+				"Roboto:500,400"
+			]
+		},
+		"custom": {
+			"families": [
+				"Open Sans"
+			],
+			"urls": []
+		}
+	},
+	"cssResources": [
+		{
+			"type": "static",
+			"name": "Fonts",
+			"namespace": "skuid",
+			"path": "opensans/opensans.css"
+		}
+	],
+	"themeSettings": {
+		"palette": {
+			"primary": {
+				"value": {
+					"color": "#005CB9",
+					"_shades": [
+						"#00376F",
+						"#004A94"
+					],
+					"_tints": [
+						"#337DC7",
+						"#669DD5",
+						"#CCDEF1"
+					]
+				}
+			},
+			"success": {
+				"value": {
+					"color": "#78BF4B",
+					"_shades": [
+						"#48732D",
+						"#60993C"
+					],
+					"_tints": [
+						"#93CC6F",
+						"#AED993",
+						"#E4F2DB"
+					]
+				}
+			},
+			"warning": {
+				"value": {
+					"color": "#FFC120",
+					"_shades": [
+						"#A87F15",
+						"#D4A01B"
+					],
+					"_tints": [
+						"#FFCC46",
+						"#FFD66C",
+						"#FFEBB8"
+					]
+				}
+			},
+			"error": {
+				"value": {
+					"color": "#E3280C",
+					"_shades": [
+						"#841707",
+						"#B32009"
+					],
+					"_tints": [
+						"#E9553F",
+						"#EF8272",
+						"#FBDDD8"
+					]
+				}
+			},
+			"focus": {
+				"value": {
+					"color": "#FFC120"
+				}
+			},
+			"black": {
+				"value": {
+					"color": "#1F2532"
+				}
+			},
+			"charcoal": {
+				"value": {
+					"color": "#2E3239"
+				}
+			},
+			"marine": {
+				"value": {
+					"color": "#4B4E54"
+				}
+			},
+			"seal": {
+				"value": {
+					"color": "#686B71"
+				}
+			},
+			"stone": {
+				"value": {
+					"color": "#8B8F95"
+				}
+			},
+			"spear": {
+				"value": {
+					"color": "#9DA0A6"
+				}
+			},
+			"chrome": {
+				"value": {
+					"color": "#D0D3D8"
+				}
+			},
+			"glacier": {
+				"value": {
+					"color": "#EBEFF2"
+				}
+			},
+			"white": {
+				"value": {
+					"color": "#FFFFFF"
+				}
+			}
+		},
+		"tokens": {
+			"borderRadius": {
+				"primary": {
+					"value": "3px"
+				},
+				"rounded": {
+					"value": "999px"
+				}
+			},
+			"borderSize": {
+				"primary": {
+					"value": "1px"
+				},
+				"medium": {
+					"value": "2px"
+				}
+			},
+			"borderStyle": {
+				"primary": {
+					"value": "solid"
+				},
+				"dashed": {
+					"value": "dashed"
+				}
+			},
+			"fontWeight": {
+				"bold": {
+					"value": 500
+				},
+				"regular": {
+					"value": 400
+				}
+			},
+			"fontSize": {
+				"gigantic": {
+					"value": "62px"
+				},
+				"huge": {
+					"value": "50px"
+				},
+				"extraLarge": {
+					"value": "32px"
+				},
+				"large": {
+					"value": "25px"
+				},
+				"mediumPlus": {
+					"value": "20px"
+				},
+				"medium": {
+					"value": "16px"
+				},
+				"body": {
+					"value": "13px"
+				},
+				"small": {
+					"value": "11px"
+				}
+			},
+			"fontFamily": {
+				"primary": {
+					"value": "Roboto, Helvetica, sans-serif"
+				}
+			},
+			"lineHeight": {
+				"regular": {
+					"value": "1"
+				},
+				"comfortable": {
+					"value": "1.1"
+				},
+				"roomy": {
+					"value": "1.25"
+				},
+				"spacious": {
+					"value": "1.6"
+				}
+			},
+			"opacity": {
+				"dark": {
+					"value": 0.85
+				},
+				"medium": {
+					"value": 0.5
+				},
+				"light": {
+					"value": 0.25
+				}
+			},
+			"spacing": {
+				"xSmall": {
+					"value": "4px"
+				},
+				"small": {
+					"value": "8px"
+				},
+				"medium": {
+					"value": "16px"
+				},
+				"large": {
+					"value": "32px"
+				}
+			},
+			"shadow": {
+				"light": {
+					"value": [
+						{
+							"x": "0px",
+							"y": "1px",
+							"blur": "2px",
+							"spread": "0px",
+							"color": "rgba(0,0,0,0.2)"
+						},
+						{
+							"x": "0px",
+							"y": "1px",
+							"blur": "3px",
+							"spread": "0px",
+							"color": "rgba(0,0,0,0.1)"
+						}
+					]
+				},
+				"lightInset": {
+					"value": [
+						{
+							"x": "0px",
+							"y": "1px",
+							"blur": "3px",
+							"spread": "0px",
+							"color": "rgba(0,0,0,0.3)",
+							"inset": true
+						}
+					]
+				},
+				"heavy": {
+					"value": [
+						{
+							"x": "0px",
+							"y": "3px",
+							"blur": "6px",
+							"spread": "0px",
+							"color": "rgba(0,0,0,0.16)"
+						},
+						{
+							"x": "0px",
+							"y": "3px",
+							"blur": "6px",
+							"spread": "0px",
+							"color": "rgba(0,0,0,0.23)"
+						}
+					]
+				},
+				"input": {
+					"value": [
+						{
+							"x": "0px",
+							"y": "0px",
+							"blur": "2px",
+							"spread": "0px",
+							"color": "rgba(139,143,149,0.12)",
+							"inset": true
+						},
+						{
+							"x": "0px",
+							"y": "2px",
+							"blur": "2px",
+							"spread": "0px",
+							"color": "rgba(139,143,149,0.24)",
+							"inset": true
+						}
+					]
+				}
+			},
+			"zIndex": {
+				"uiBlocker": {
+					"value": "5000"
+				},
+				"menu": {
+					"value": "1200"
+				},
+				"dialog": {
+					"value": "1100"
+				},
+				"modal": {
+					"value": "1000"
+				},
+				"relative": {
+					"value": "1"
+				}
+			}
+		}
+	},
+	"__comment": "DO NOT EDIT, this is a generated file and all changes will be overwritten. If you wish to change the resources loaded, please do so in the skuid_theme.json"
+}

@@ -1,0 +1,1016 @@
+.nx-page{
+    padding-left: 0;
+    padding-right:0;
+}
+.ui-tabs{
+    margin: 0 1.5rem;
+}
+.ui-tabs .ui-tabs{
+    margin: 0;
+}
+.ui-tabs .ui-tabs > .ui-widget-content{
+    border-left: 1px solid #dddbda;
+    border-right: 1px solid #dddbda;
+    border-bottom: 1px solid #dddbda;
+    border-radius: 0 0 .25rem .25rem;
+}
+
+.ui-tabs > .ui-widget-content{
+    padding: .75rem;
+}
+.ui-tabs .ui-tabs .ui-tabs-nav li.ui-state-default, 
+.ui-tabs .ui-tabs .ui-tabs-nav li.ui-state-hover {
+    /*padding: 12px 20px;*/
+    padding: 0;
+    position: relative;
+    top: -1px;
+}
+.ui-tabs .ui-tabs .ui-tabs-nav li a{
+    padding: 12px 20px;
+}
+.ui-tabs .ui-tabs .ui-tabs-nav li.ui-state-hover a:link{
+    color: #005fb2;
+}
+.ui-tabs .ui-tabs .ui-tabs-nav li:first-child{
+    border-top-left-radius: .25rem;
+}
+
+.ui-tabs .ui-tabs .ui-tabs-nav li.ui-state-active:first-child{
+    border-left: 1px solid #ffffff;
+}
+.ui-tabs .ui-tabs .ui-tabs-nav li.ui-tabs-active:after{
+    content: "";
+    width: 100%;
+    height: 2px;
+    position: absolute;
+    bottom: -2px;
+    left: 0;
+}
+
+.ui-tabs .ui-tabs .ui-tabs-nav li.ui-state-hover:first-child{
+    border-left: 1px solid transparent;
+}
+
+.ui-tabs .ui-tabs ul.ui-tabs-nav {
+    padding: 0;
+    margin: 0;
+    border: 1px solid #dddbda;
+    border-radius: .25rem .25rem 0 0;
+}
+a{
+    -webkit-transition: color 0.1s linear;
+    transition: color 0.1s linear;
+}
+
+/* Table */
+table.nx-skootable-data tbody tr:hover td{
+    position: relative;
+}
+table.nx-skootable-data tbody tr:hover td:before,
+table.nx-skootable-data tbody tr:hover td:after {
+    position: absolute;
+    left: 0;
+    width: 100%;
+    height: 1px;
+    background: #dddbda;
+    content: "";
+}
+table.nx-skootable-data tbody tr:hover td:before{
+    top: 0;
+}
+table.nx-skootable-data tbody tr:hover td:after{
+    bottom: 0;
+}
+table.nx-skootable-data tbody tr:hover td.nx-item-drawer {
+    border-bottom-width: 1px;
+    padding-bottom: 0;
+}
+
+.ui-widget-content .nx-skootable .nx-buttonset .ui-button.ui-state-default.ui-state-hover{
+    border: none;
+}
+/* Buttons and filters */
+.nx-conditiontoken>.ui-multiselect{
+    color: #0070d2;
+}
+.ui-multiselect-menu.ui-widget-content{
+    font-size: .875rem;
+}
+.nx-conditiontoken.unavailable{
+    opacity: .35;
+    color: #0070d2;
+    background: #ffffff !important; /*sorry not sorry*/
+}
+.nx-conditiontoken.unavailable > .ui-multiselect{
+    cursor: default;
+}
+
+.sk-timefilter-button, .sk-timefilter-button-grey{
+    background:#0070d2;
+    color:white;
+    border: 1px solid #0070d2;
+    font-size: .75rem;
+    line-height: 1.875rem;
+    padding: 0 1rem;
+}
+.sk-timefilter-button-grey{
+    color: #0070d2;
+    border-color: #0070d2;
+    background: white;
+}
+.sk-timefilter-button:hover{
+    background: #005fb2;
+}
+.sk-timefilter-button-grey:hover{
+    background: #f4f6f9;
+}
+.ui-button, .nx-conditiontoken{
+    -webkit-transition: color 0.05s linear,background-color 0.05s linear;
+    transition: color 0.05s linear,background-color 0.05s linear;
+}
+.ui-datepicker.ui-widget-content td a, .ui-datepicker.ui-widget-content td span{
+    text-align: center;
+    height: 26px;
+    padding-top: 4px;
+    box-sizing: border-box;
+}
+.sk-search>div.nx-field-reference-search {
+    font-size: 1.15em;
+}
+
+.nx-skootable-data > thead, .ui-tabs > ul{
+    letter-spacing: .0625rem;
+}
+
+.ui-tabs .ui-tabs > ul{
+    letter-spacing: normal;
+}
+
+.nx-actionselect-arrow > div.ui-icon{
+    color: #0070d2;
+}
+.nx-actionselect-label{
+    top: -1.5rem;
+}
+div.nx-actionselect.nx-actionbutton{
+    margin: 5px 4px 7px 0;
+}
+
+.sk-subnavigation{
+    border-radius: .25rem;
+    box-shadow: 0px 2px 3px 0px rgba(0,0,0,.16);
+    border: 1px solid #dddbda;
+}
+.sk-subnavigation .sk-navigation-item{
+    background: transparent;
+}
+.sk-navigation-item>a, .sk-navigation-item>span{
+    line-height: 40px;
+}
+.nx-pagetitle-subtitle{
+    letter-spacing: .0625rem;
+}
+
+.nx-skootable-buttonicon:hover{
+    color: #0070d2;
+}
+
+.sk-buttonset-group > .sk-button-action {
+    margin: 0;
+}
+
+.nx-header-left .ui-button{
+    margin: 0 4px 4px 0;
+}
+
+.ui-button-text-icon-secondary .ui-button-text {
+	padding-right: 2.75em;
+}
+
+.ui-button-text-icon-primary .ui-button-text {
+	padding-left: 2.75em;
+}
+
+/* Adding support for buttons with both left and right icons. -- jdb */
+.ui-button-text-icons .ui-button-text {
+	padding-left: 2.75em;
+	padding-right: 2.75em;
+}
+
+/* Field Editor */
+.nx-basicfieldeditor-section-header{
+    padding: 8px 0;
+}
+
+.nx-basicfieldeditor-section{
+    margin: 0 1.25rem 0 0;
+}
+.nx-basicfieldeditor .nx-fieldtext{
+    line-height: 1.5;
+}
+
+.nx-basicfieldeditor-item-label.nx-layout-above{
+    line-height: 1.5;
+    padding: 0;
+    margin: 0 0 .25rem 0;
+}
+
+.nx-basicfieldeditor-column.nx-layout-above .nx-basicfieldeditor-item{
+    padding: .5rem .5rem .25rem .5rem;
+    margin-bottom: .5rem;
+    min-height: 3.625rem;
+    box-sizing: border-box;
+}
+.nx-basicfieldeditor-column.nx-layout-above .nx-basicfieldeditor-item > .nx-field{
+    width: 100%;
+}
+
+.nx-basicfieldeditor .nx-fieldtext{
+    padding: .5rem;
+}
+.nx-basicfieldeditor .nx-layout-above .nx-fieldtext{
+    padding: 0;
+}
+
+.nx-basicfieldeditor .nx-layout-above .nx-field input{
+    padding: .25rem .5rem;
+}
+
+.nx-basicfieldeditor-item-label.required:before{
+    content: "*";
+    color: #C23934;
+    font-weight: 700;
+    margin: 0 2px 0 -.45rem; /* ensure consistent alignment of labels by pushing asterisk margin left */
+}
+
+/* Un-apply anti-SFLD style imposed by app.css */
+body .nx-basicfieldeditor-item-label.required,
+.forceStyle .nx-basicfieldeditor-item-label.required {
+    font-weight: 400;
+    color: #706e6b;
+}
+
+.nx-basicfieldeditor-item-label{
+    width: 30%;
+    padding-right: .5rem;
+    box-sizing: border-box;
+}
+div.nx-basicfieldeditor-section-body>div.nx-basicfieldeditor-item>.nx-field,
+div.nx-basicfieldeditor-item>.nx-field{
+    width: 70%;
+    margin: 0;
+}
+
+/* Deck */
+.sk-deck .nx-pagetitle{
+    margin: 0;
+}
+
+.sk-deck article{
+    background: #f4f6f9;
+    padding: 1.25rem 1.75rem;
+    border-color: #dddbda;
+}
+
+/* Queue */
+.nx-queue-titletext{
+    line-height: 1.5;
+    padding: 0;
+}
+.nx-queue-titlebar{
+    padding: 1rem;
+}
+.nx-queue-titleicon::before{
+    color: #54698d;
+}
+.nx-editor-contents{
+    margin: 0;
+}
+.nx-queue-settings{
+    padding: 0;
+    border-top: none;
+}
+
+.nx-queue-header .nx-editor-header input.searchbox{
+    padding: .8125rem;
+    font-size: .8125rem;
+}
+
+/* Popup */
+.ui-dialog{
+    padding: 0;
+}
+.ui-dialog .ui-dialog-title{
+    width: 100%;
+}
+.ui-dialog .ui-dialog-titlebar{
+    padding: 0;
+    text-align: center;
+}
+.ui-dialog .ui-dialog-content{
+    padding: 1rem;
+}
+div.nx-status{
+    margin-top: .5rem;
+}
+div.nx-fileupload-status.nx-status {
+    margin: .5625rem .25rem;
+    color: #0070d2;
+    border: none;
+}
+/* checkbox overrides for core classes per SKUID-3068 */
+.nx-checkboxwrapper {
+   background-color: unset;
+}
+.nx-checkboxlabel {
+   padding: unset;
+   margin: 9px;   /* matches margin from table.nx-skootable-data input[type=checkbox] */
+   color: #54698d;
+}
+
+.nx-cal-table {
+    border-bottom: 2px solid #dddbda;
+}
+
+.nx-cal-table th {
+     line-height: 40px;
+     text-transform: uppercase;
+     padding: 0 1px;
+     border-bottom: 2px solid #dddbda;
+}
+
+.nx-cal-month-header-label {
+    font-size: .75rem;
+    font-weight: normal;
+    padding: 5px 0 0 5px;
+    width: auto;
+    text-align: left;
+}
+
+.nx-cal-other-month, td.nx-cal-other-month {
+    opacity: .7;
+}
+
+.nx-cal-event {
+    background: #cfebfe;
+    color: rgb(0, 57, 107);
+    overflow: hidden;
+    text-overflow: ellipsis;
+    font-size: .75rem;
+    box-shadow: none;
+}
+
+/* Deck/table/queue searchbox */
+.nx-editor-header .searchbox::-webkit-input-placeholder {
+    color: #54698d;
+}
+
+.nx-editor-header .searchbox {
+    color: rgb(22, 50, 92);
+    font-size: .8125rem;
+    font-weight: normal;
+}
+
+.nx-list-footer {
+    color: rgb(84, 105, 141) !important;
+    font-weight: normal !important;
+    font-size: .8125rem !important;
+    line-height: 1.5 !important;
+}
+
+.nx-wizard .nx-editor-header-title {
+    margin-left: 0;
+    margin-right: 0;
+}
+
+.nx-radiowrapper, .nx-checkboxwrapper {
+    background: #fff !important;
+}
+.nx-radiolabel, .nx-checkboxlabel {
+    color: rgb(84, 105, 141) !important;
+    font-size: .8125rem !important;
+}
+
+.nx-wizard .nx-editor-header-title {
+    margin: 0 0 8px !important;
+}
+
+.nx-wizard .nx-editor-header,
+.nx-wizard .nx-messages,
+.nx-wizard .nx-editor-contents {
+    padding: 0 1rem;
+}
+
+.nx-editor-contents .nx-editor-header,
+.nx-editor-contents .nx-messages,
+.nx-editor-contents .nx-editor-contents {
+    padding: 0 0;
+}
+
+.nx-wizard .nx-editor-footer {
+    background: rgb(244, 246, 249);
+    padding: .75rem .5rem;
+    border-top: 1px solid rgb(216, 221, 230);
+    height: 60px;
+}
+
+/* Handle theme-specific filter padding */
+.nx-conditioncontainer-vertical .nx-conditiontoken:not(:last-child) {
+    margin-bottom: 0.75em;
+}
+
+
+
+/********************************************
+    RICH TEXT
+********************************************/
+
+.sk-richtext {
+    line-height: 1.5;
+    font-size: 0.8125rem;
+    font-weight: 400;
+}
+
+
+
+/********************************************
+    TABS - HORIZONTAL
+********************************************/
+
+.ui-tabs .ui-tabs-nav li.ui-state-hover a,
+.ui-tabs .ui-tabs-nav li.ui-tabs-active.ui-state-hover a {
+    cursor: pointer !important;
+}
+.ui-tabs .ui-tabs-nav {
+    padding: 0;
+    border-bottom: 2px solid #dddbda;
+}
+.ui-tabs .ui-tabs-nav li {
+    margin-right: 0;
+    top: 2px;
+    padding-bottom: 3px;
+}
+.ui-tabs .ui-tabs-nav li.ui-tabs-active,
+.ui-tabs .ui-tabs-nav li.ui-tabs-hover {
+    padding-bottom: 4px;
+}
+.ui-tabs .ui-tabs-nav li.ui-tabs-active {
+    border-bottom-color: #1589ee; /* slightly lighter blue */
+    margin-bottom: 0;
+}
+.ui-tabs .ui-tabs-nav li a.ui-tabs-anchor:focus {
+    outline: none;
+}
+
+
+
+/********************************************
+    TABS - VERTICAL
+********************************************/
+
+.nx-lefttabs>.ui-tabs-nav li,
+.nx-righttabs>.ui-tabs-nav li {
+    background: #f3f2f2;
+    border: solid 1px transparent;
+    border-bottom-color: #dddbda;
+    color: #706e6b; /* light grey */
+}
+
+.nx-lefttabs>.ui-tabs-nav li {
+    border-right: solid 1px #dddbda;
+}
+.nx-righttabs>.ui-tabs-nav li {
+    border-left: solid 1px #dddbda;
+}
+
+.nx-lefttabs>.ui-tabs-nav li a,
+.nx-righttabs>.ui-tabs-nav li a {
+    text-transform: none;
+    color: #706e6b; /* light grey */
+}
+.ui-tabs.nx-lefttabs>.ui-tabs-nav li.ui-tabs-active,
+.ui-tabs.nx-lefttabs>.ui-tabs-nav li.ui-tabs-active.ui-state-hover,
+.ui-tabs.nx-righttabs>.ui-tabs-nav li.ui-tabs-active,
+.ui-tabs.nx-righttabs>.ui-tabs-nav li.ui-tabs-active.ui-state-hover {
+    background: #fff;
+    border: solid 1px transparent;
+    border-bottom: solid 1px #dddbda;
+}
+.ui-tabs.nx-lefttabs>.ui-tabs-nav li.ui-tabs-active,
+.ui-tabs.nx-lefttabs>.ui-tabs-nav li.ui-tabs-active.ui-state-hover {
+    border-right-color: #fff;
+}
+.ui-tabs.nx-righttabs>.ui-tabs-nav li.ui-tabs-active,
+.ui-tabs.nx-righttabs>.ui-tabs-nav li.ui-tabs-active.ui-state-hover {
+    border-left-color: #fff;
+}
+
+.ui-tabs.nx-lefttabs>.ui-tabs-nav li.ui-state-hover,
+.ui-tabs.nx-righttabs>.ui-tabs-nav li.ui-state-hover {
+    background: #dddbda;
+    color: #3e3e3c; /* gray */
+}
+
+.ui-tabs.nx-lefttabs,
+.ui-tabs.nx-righttabs {
+    border: 1px solid #dddbda;
+    border-radius: .25rem;
+}
+
+.ui-tabs.nx-lefttabs>.ui-tabs-nav li.ui-state-hover,
+.ui-tabs.nx-righttabs>.ui-tabs-nav li.ui-state-hover {
+    border-bottom: solid 1px transparent;
+    border-left: 1px solid #dddbda;
+}
+
+.ui-tabs.nx-lefttabs>ul,
+.ui-tabs.nx-righttabs>ul {
+    letter-spacing: 0;
+    margin-top: -2px;
+}
+
+.ui-tabs.nx-lefttabs>.ui-tabs-nav li.ui-tabs-active a,
+.ui-tabs.nx-lefttabs>.ui-tabs-nav li.ui-tabs-active.ui-state-hover a,
+.ui-tabs.nx-righttabs>.ui-tabs-nav li.ui-tabs-active a,
+.ui-tabs.nx-righttabs>.ui-tabs-nav li.ui-tabs-active.ui-state-hover a {
+    font-weight: 400;
+    color: #0070d2; /* blue */
+}
+
+.ui-tabs.nx-lefttabs>.ui-tabs-nav>li:first-child {
+    border-radius: .25rem 0 0 0;
+}
+.ui-tabs.nx-lefttabs>.ui-tabs-nav>li:last-child {
+    border-radius: 0 0 0 .25rem;
+}
+.ui-tabs.nx-righttabs>.ui-tabs-nav>li:first-child {
+    border-radius: 0 .25rem 0 0;
+}
+.ui-tabs.nx-righttabs>.ui-tabs-nav>li:last-child {
+    border-radius: 0 0 .25rem 0;
+}
+
+.ui-tabs.nx-lefttabs>.ui-tabs-nav .ui-tabs-anchor,
+.ui-tabs.nx-righttabs>.ui-tabs-nav .ui-tabs-anchor {
+    padding: .8em 1em;
+}
+
+.ui-tabs.nx-lefttabs>li.ui-tabs-active+li,
+.ui-tabs.nx-righttabs>li.ui-tabs-active+li {
+    border-top: solid 1px #dddbda;
+}
+
+.ui-tabs.nx-lefttabs>li:first-child,
+.ui-tabs.nx-righttabs>li:first-child {
+    border-top-width: 0px;
+}
+
+.ui-tabs .ui-widget-content {
+    border-radius: .25rem;
+}
+
+.ui-tabs.nx-lefttabs>.ui-tabs-nav>li.ui-tabs-active:not(:last-child),
+.ui-tabs.nx-righttabs>.ui-tabs-nav>li.ui-tabs-active:not(:last-child) {
+    margin-bottom: 0;
+}
+
+
+/********************************************
+    TABS - NESTED HORIZONTAL IN HORIZONTAL
+********************************************/
+
+.ui-tabs .ui-tabs .ui-tabs-nav {
+    background: #f3f2f2;
+    border-color: #dddbda;
+}
+.ui-tabs .ui-tabs .ui-tabs-nav li.ui-state-default, .ui-tabs .ui-tabs .ui-tabs-nav li.ui-state-hover {
+    top: 1px;
+    margin-top: -2px;
+}
+.ui-tabs .ui-tabs .ui-tabs-nav li.ui-tabs-active a, .ui-tabs .ui-tabs .ui-tabs-nav li.ui-tabs-active.ui-state-hover a {
+    color: #0070d2; /* blue */
+    font-weight: 700;
+}
+.ui-tabs .ui-tabs .ui-tabs-nav li.ui-state-hover {
+    color: #0070d2; /* blue */
+}
+.ui-tabs .ui-tabs .ui-tabs-nav li a {
+    color: #706e6b; /* gray */
+}
+
+/* Fix hover over last link in vertical menu */
+.ui-tabs .ui-tabs .ui-tabs-nav li.ui-tabs-active.ui-state-hover:last-child {
+    border-bottom: solid 1px #dddbda;
+}
+
+
+
+/********************************************
+    TABS - NESTED VERTICAL IN HORIZONTAL
+********************************************/
+
+.ui-tabs .ui-tabs.nx-lefttabs>.ui-widget-content,
+.ui-tabs .ui-tabs.nx-righttabs>.ui-widget-content {
+    border: none;
+    border-radius: .25rem;
+}
+
+.ui-tabs .ui-tabs.nx-lefttabs ul.ui-tabs-nav,
+.ui-tabs .ui-tabs.nx-righttabs ul.ui-tabs-nav {
+    border: none;
+    border-radius: 0;
+}
+
+.ui-tabs .ui-tabs.nx-lefttabs .ui-tabs-nav li,
+.ui-tabs .ui-tabs.nx-righttabs .ui-tabs-nav li {
+    padding: 0;
+    border-bottom: solid 1px #dddbda;
+    border-right: solid 1px #dddbda;
+    border-radius: 0;
+}
+
+.ui-tabs .ui-tabs.nx-lefttabs .ui-tabs-nav li.ui-state-active,
+.ui-tabs .ui-tabs.nx-righttabs .ui-tabs-nav li.ui-state-active,
+.ui-tabs .ui-tabs.nx-lefttabs .ui-tabs-nav li.ui-state-active.ui-state-hover,
+.ui-tabs .ui-tabs.nx-righttabs .ui-tabs-nav li.ui-state-active.ui-state-hover {
+    border-top: solid 1px #dddbda;
+    border-right: solid 1px transparent;
+}
+
+.ui-tabs .ui-tabs.nx-lefttabs .ui-tabs-nav li.ui-state-default,
+.ui-tabs .ui-tabs.nx-lefttabs .ui-tabs-nav li.ui-state-hover,
+.ui-tabs .ui-tabs.nx-righttabs .ui-tabs-nav li.ui-state-default,
+.ui-tabs .ui-tabs.nx-righttabs .ui-tabs-nav li.ui-state-hover {
+    margin-top: -1px;
+}
+
+.ui-tabs .ui-tabs.nx-lefttabs>.ui-tabs-nav li a,
+.ui-tabs .ui-tabs.nx-righttabs>.ui-tabs-nav li a {
+    text-transform: none;
+    color: #706e6b; /* light grey */
+}
+
+.ui-tabs .ui-tabs.nx-lefttabs .ui-tabs-nav li.ui-state-hover a,
+.ui-tabs .ui-tabs.nx-righttabs .ui-tabs-nav li.ui-tabs-active.ui-state-hover a {
+    color: #3e3e3c; /* gray */
+}
+
+.ui-tabs .ui-tabs.nx-lefttabs .ui-tabs-nav li:first-child.ui-state-active,
+.ui-tabs .ui-tabs.nx-lefttabs .ui-tabs-nav li:first-child.ui-state-active.ui-state-hover,
+.ui-tabs .ui-tabs.nx-righttabs .ui-tabs-nav li:first-child.ui-state-active,
+.ui-tabs .ui-tabs.nx-righttabs .ui-tabs-nav li:first-child.ui-state-active.ui-state-hover {
+    border-top: solid 1px transparent;
+}
+
+.ui-tabs .ui-tabs.nx-lefttabs .ui-tabs-nav li.ui-tabs-active a,
+.ui-tabs .ui-tabs.nx-lefttabs .ui-tabs-nav li.ui-tabs-active.ui-state-hover a,
+.ui-tabs .ui-tabs.nx-righttabs .ui-tabs-nav li.ui-tabs-active a,
+.ui-tabs .ui-tabs.nx-righttabs .ui-tabs-nav li.ui-tabs-active.ui-state-hover a {
+    font-weight: 400;
+    color: #0070d2; /* blue */
+}
+
+
+
+/********************************************
+    PICKLISTS/SELECTS
+********************************************/
+
+/* Picklist (a.k.a. select) */
+.nx-editor select {
+    margin-top: 0;
+}
+.nx-field select,
+.nx-tabset-header select,
+.nx-list-footer select {
+    outline: 0;
+    border: 1px solid #dddbda;
+    border-radius: .25rem;
+    -webkit-border-radius: .25rem;
+    -moz-border-radius: .25rem;
+    -ms-border-radius: .25rem;
+    -o-border-radius: .25rem;
+    background-color: #fff;
+    font-size: 1em;
+    font-family: Salesforce Sans;
+    transition: all .4s ease;
+    transition-property: background,color;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    color: #16325c;
+}
+.nx-field select,
+.nx-tabset-header select {
+    height: calc(1.875rem + 2px);
+}
+.nx-field select {
+    width: 100%;
+}
+.nx-field .nx-dt-timewrapper select {
+    width: unset;
+}
+.nx-field .nx-dt-timewrapper {
+    vertical-align: top;
+}
+
+
+/********************************************
+    FIELD EDITOR
+********************************************/
+
+/* Fix border, weight, and height of form inputs */
+.nx-field .flex-text-wrap pre,
+.nx-field .nx-richtext-input,
+.nx-field input,
+.nx-field textarea {
+    border: 1px solid #dddbda;
+    font-weight: 400;
+}
+
+/* Style focus */
+.sk-search input.ui-autocomplete-input:focus,
+.sk-search input.ui-autocomplete-input:active,
+.nx-field input:focus, .nx-field input:active,
+.nx-field select:focus, .nx-field select:active,
+.nx-field textarea:focus, .nx-field textarea:active,
+.nx-list-footer select:focus, .nx-list-footer select:active,
+.nx-tabset-header select:focus, .nx-tabset-header select:active {
+    border-color: #1589ee;
+    background-color: white;
+    -webkit-box-shadow: 0 0 3px #0070D2;
+    box-shadow: 0 0 3px #0070D2;
+}
+
+/* Label */
+.nx-basicfieldeditor-item-label {
+    display: inline-block;
+    line-height: 1.5;
+    margin: 0 0 0.125rem 0;
+}
+
+/* Error */
+.nx-field.nx-field-error input,
+.nx-field.nx-field-error select,
+.nx-field.nx-field-error textarea {
+    border: solid 2px #c23934;
+}
+
+.nx-field input:not([type=radio]):not([type=checkbox]) {
+    height: calc(1.875rem + 2px);
+}
+
+/********************************************
+    DECK
+********************************************/
+
+.sk-deck article {
+    background: #f3f2f2;
+    border: solid 1px #dddbda;
+    border-radius: .25rem;
+}
+
+/* Fix pagination links */
+.nx-list-footer .ui-button.ui-state-hover {
+    border: none;
+}
+
+
+
+/********************************************
+    WIZARD
+********************************************/
+.nx-wizard .nx-editor-footer {
+    background: #f3f2f2;
+    border-top: 1px solid #dddbda;
+
+}
+
+
+
+/********************************************
+    TABLE
+********************************************/
+
+/* Indicate required fields in inline edit */
+table.nx-skootable-data .nx-field.required input,
+table.nx-skootable-data .nx-field.required textarea,
+table.nx-skootable-data .nx-field.required select {
+    border: solid 2px #c23934;
+}
+
+
+
+/********************************************
+    CALENDAR
+********************************************/
+
+/* Unsetting the border-collapse: collapse; */
+.nx-cal-table {
+    border-collapse: inherit;
+}
+
+td.nx-cal-cell-today {
+    border: 1px solid rgb(0, 112, 210);
+}
+
+
+
+/********************************************
+    ALERTS
+********************************************/
+
+.nx-error, .nx-warning, .nx-message {
+    background-image: linear-gradient(45deg, rgba(0, 0, 0, 0.025) 25%, transparent 25%, transparent 50%, rgba(0, 0, 0, 0.025) 50%, rgba(0, 0, 0, 0.025) 75%, transparent 75%, transparent);
+    background-size: 64px 64px;
+    line-height: 1.7142857143;
+    border-radius: 0;
+    padding: 0.5rem 2rem 0.5rem 0.5rem;
+}
+.nx-warning {
+    background-color: #ffb75d;
+    color: #3e3e3c;
+}
+.nx-warning .ui-icon.ui-icon-close {
+    color: #3e3e3c;
+}
+
+
+
+/********************************************
+    QUEUE
+********************************************/
+
+.nx-queue {
+    box-shadow: none;
+}
+.nx-queue-header-inner {
+    border-bottom-width: 0;
+}
+.nx-editor-header {
+    margin: 1px;
+}
+
+
+
+
+/********************************************
+    MODAL
+********************************************/
+
+.ui-dialog{
+    color: #3e3e3c;
+}
+.ui-widget-overlay{
+    background: #000;
+    opacity: .5;
+}
+.ui-dialog .ui-dialog-titlebar .ui-button.ui-dialog-titlebar-close {
+    font-size: 200%;
+}
+/* Spacing between buttons (in button set) */
+.nx-header-left .ui-button {
+    margin: 0 0 0.5rem 0.5rem;
+}
+
+
+
+/********************************************
+    SLIDING PANEL
+********************************************/
+
+.sk-pagepanel {
+    background: #fff;
+}
+.sk-pagepanel.sk-pagepanel-overlay {
+    box-shadow: -1px 0 3px 0 rgba(0, 0, 0, 0.25);
+}
+.sk-pagepanel.sk-pagepanel-overlay.sk-pagepanel-top {
+    border-bottom: none;
+}
+.sk-pagepanel.sk-pagepanel-overlay.sk-pagepanel-right {
+    border-left: none;
+}
+.sk-pagepanel.sk-pagepanel-overlay.sk-pagepanel-bottom {
+    border-top: none;
+}
+.sk-pagepanel.sk-pagepanel-overlay.sk-pagepanel-left {
+    border-right: none;
+}
+
+
+
+/********************************************
+    SEARCH
+********************************************/
+.sk-search-results {
+    margin-top: 0.125rem;
+    margin-bottom: 0.125rem;
+    padding: 0.25rem 0;
+    box-shadow: 0 2px 3px 0 rgba(0, 0, 0, 0.16);
+}
+.sk-search-results>.ui-menu-item.ui-state-focus,
+.sk-search-results>.ui-menu-item:focus,
+.sk-search-results>.ui-menu-item:hover {
+    color: #3e3e3c;
+}
+.sk-search-results>.ui-menu-item {
+    background: #FFF;
+    padding: 0.5rem 1.5rem;
+}
+.ui-tabs .ui-widget-content {
+    background: #FFF;
+}
+.sk-search-summary {
+    color: #999;
+}
+
+
+
+/********************************************
+    FILTERS
+********************************************/
+.sk-timefilter-body {
+    border: solid 1px #dddbda;
+}
+.ui-datepicker.ui-widget-content td a,
+.ui-datepicker.ui-widget-content td span {
+    font-weight: 400;
+    height: 32px;
+    min-width: 32px;
+    padding-top: 8px;
+}
+.ui-datepicker.ui-widget-content td a.ui-state-hover,
+.ui-datepicker.ui-widget-content td span.ui-state-hover,
+.ui-datepicker.ui-widget-content td a.ui-state-highlight,
+.ui-datepicker.ui-widget-content td span.ui-state-highlight,
+.ui-datepicker.ui-widget-content td a.ui-state-active,
+.ui-datepicker.ui-widget-content td span.ui-state-active,
+.ui-datepicker.ui-widget-content td a.ui-state-hover.ui-state-highlight,
+.ui-datepicker.ui-widget-content td span.ui-state-hover.ui-state-highlight,
+.ui-datepicker.ui-widget-content td a.ui-state-hover.ui-state-active,
+.ui-datepicker.ui-widget-content td span.ui-state-hover.ui-state-active {
+    border: none;
+    font-weight: 400;
+}
+.ui-datepicker.ui-widget-content td.ui-datepicker-today a.ui-state-highlight {
+    background: #ecebea;
+    color: #16325c;
+    font-weight: 400;
+}
+.sk-timefilter-button-grey {
+    border-color: #dddbda;
+}
+.ui-datepicker.ui-widget-content th{
+    color: #706e6b;
+}
+.ui-datepicker.ui-widget-content .ui-datepicker-title {
+    font-weight: 400;
+    color: #706e6b;
+}
+.ui-datepicker.ui-widget-content .ui-datepicker-next span,
+.ui-datepicker.ui-widget-content .ui-datepicker-prev span  {
+    color: #706e6b;
+}
+
+
+
+/********************************************
+    MISCELLANEOUS
+********************************************/
+
+/* Focus for search box above deck, queue, table, etc. */
+.nx-editor-header input.searchbox:focus,
+.nx-editor-header input.searchbox:active {
+    outline: none;
+    border-color: #1589ee;
+    background-color: white;
+    -webkit-box-shadow: 0 0 3px #0070D2;
+    box-shadow: 0 0 3px #0070D2;
+}
+
+/* Button focus style */
+.ui-button.sk-focus-keyboard {
+    border-color: #1589ee;
+    -webkit-box-shadow: 0 0 3px #0070D2;
+    box-shadow: 0 0 3px #0070D2;
+    outline: none;
+}
+
+/* Reset all link focus styles */
+div.nx-actionselect.nx-viewswitcher:focus,
+:focus { outline: thin dotted; }
+
+
+/* Keep the link white since the background is blue */
+.ui-multiselect-menu a:hover {
+    color: #fff;
+}
+
+/* Make sk-webicon same height as sk-icon */
+.sk-webicon {
+    line-height: 1;
+}
+
+
+

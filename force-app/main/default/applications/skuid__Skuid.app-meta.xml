@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomApplication xmlns="http://soap.sforce.com/2006/04/metadata">
+    <defaultLandingTab>skuid__Page__c</defaultLandingTab>
+    <description>Bespoke UX at Blazing Speed.</description>
+    <isNavAutoTempTabsDisabled>false</isNavAutoTempTabsDisabled>
+    <isNavPersonalizationDisabled>false</isNavPersonalizationDisabled>
+    <label>Skuid</label>
+    <logo>skuid__Skuid_Logos/skuid__Skuid_App_Logo.png</logo>
+    <tabs>skuid__Page__c</tabs>
+    <tabs>Coffee_Companies</tabs>
+    <uiType>Aloha</uiType>
+</CustomApplication>

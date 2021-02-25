@@ -1,0 +1,4 @@
+<apex:page sidebar="false" readOnly="true" docType="html-5.0" title="Data Source Field" showHeader="true" tabStyle="Skuid_Settings__tab">
+	<!-- DEPRECATED. This page is no longer used anywhere in the skuid managed package. -->
+	<h2><apex:outputText value="{!$Label.skuid__page_deprecated}"/></h2>
+</apex:page>
