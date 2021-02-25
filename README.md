@@ -31,10 +31,10 @@ Salesforce Visualforce page built using Skuid UX/UI tool. This Page creates an A
 - Page XML:  [Download this xml file](https://github.com/rdelarosa3/caredx-challenge/blob/main/caredx-challenge/caredx.xml), and Create new Skuid Page select XML options and import XML file.
 - Create a new Visualforce Page 
 - Include <skuid:page page="YOURSKUIDPAGENAME"/> in Visualforce markup
-- Dep
+
 ### Overview 
 
-### Approach
+#### Approach
 
 1. Use of Skuid Page API version 1.
 2. Use Standard sObjects to tie with models.
@@ -43,7 +43,7 @@ Salesforce Visualforce page built using Skuid UX/UI tool. This Page creates an A
 5. JavaScript Snippets to handle Interactions such as click events.
 6. Use of Action Sequences to automate sObject, Component, UI manipulation. 
 
-### Guide
+#### Guide
 
 1. User may view and search through the Accounts List on the left section.  
 2. When an account is selected/clicked an Action Sequence will be triggered that queries 6 models tying them to the id of the account.
@@ -57,4 +57,4 @@ Salesforce Visualforce page built using Skuid UX/UI tool. This Page creates an A
 10. When Pipleine Stage is clicked Modal is open with Table details of Opportunity
 11. Below a Deck Component is used to display Child Accounts Opportunities
 12. Using Tab Compenent User can view Open Opportunites and Closed.
-13. User cand edit Open Opportunites through Row Actions and using A Mass Row Action that triggers an Acion Sequence the user can refresh Models.
+13. User may edit Open Opportunites through Row Actions and using A Mass Row Action that triggers an Acion Sequence the user can refresh Models.
