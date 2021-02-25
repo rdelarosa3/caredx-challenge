@@ -4,4 +4,10 @@
     <description>Enables use of Adobe Typekit fonts in Lightning Experience/Communities</description>
     <endpointUrl>https://use.typekit.net</endpointUrl>
     <isActive>true</isActive>
+    <isApplicableToConnectSrc>true</isApplicableToConnectSrc>
+    <isApplicableToFontSrc>true</isApplicableToFontSrc>
+    <isApplicableToFrameSrc>true</isApplicableToFrameSrc>
+    <isApplicableToImgSrc>true</isApplicableToImgSrc>
+    <isApplicableToMediaSrc>true</isApplicableToMediaSrc>
+    <isApplicableToStyleSrc>true</isApplicableToStyleSrc>
 </CspTrustedSite>

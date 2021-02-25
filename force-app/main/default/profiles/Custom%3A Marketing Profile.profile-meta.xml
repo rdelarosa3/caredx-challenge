@@ -3154,16 +3154,6 @@
     </fieldPermissions>
     <fieldPermissions>
         <editable>false</editable>
-        <field>skuid__Data_Service_Config__mdt.skuid__Private_Certificate_DevName__c</field>
-        <readable>false</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>false</editable>
-        <field>skuid__Data_Service_Config__mdt.skuid__Public_Key__c</field>
-        <readable>false</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>false</editable>
         <field>skuid__Feedback_Response__c.skuid__Answer_Number__c</field>
         <readable>false</readable>
     </fieldPermissions>
@@ -3377,19 +3367,6 @@
         <field>skuid__Personalization_Settings__c.skuid__User__c</field>
         <readable>false</readable>
     </fieldPermissions>
-    <fieldPermissions>
-        <editable>false</editable>
-        <field>skuid__Secret__mdt.skuid__Key__c</field>
-        <readable>false</readable>
-    </fieldPermissions>
-    <flowAccesses>
-        <enabled>false</enabled>
-        <flow>customer_satisfaction</flow>
-    </flowAccesses>
-    <flowAccesses>
-        <enabled>false</enabled>
-        <flow>net_promoter_score</flow>
-    </flowAccesses>
     <layoutAssignments>
         <layout>Account-Account %28Marketing%29 Layout</layout>
     </layoutAssignments>

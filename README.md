@@ -7,9 +7,10 @@ Salesforce Visualforce page built using Skuid UX/UI tool. This Page creates an A
 ## Table of Contents
 1. [Demo](https://github.com/rdelarosa3/caredx-challenge#demo)
 2. [Technologies Applied](https://github.com/rdelarosa3/caredx-challenge#technologies)
-3. [Overview - Approach - Assumptions](https://github.com/rdelarosa3/caredx-challenge#overview)
+3. [Overview - Approach - Guide](https://github.com/rdelarosa3/caredx-challenge#overview)
 
 ### Demo
+![ezgif com-gif-maker (5)](https://user-images.githubusercontent.com/40813295/109212553-48ba9b00-7775-11eb-8aa8-db2ae1f0fd1d.gif)
 
                         
 ### Technologies
@@ -25,7 +26,7 @@ Salesforce Visualforce page built using Skuid UX/UI tool. This Page creates an A
 1. Use of Skuid Page API version 1.
 2. Use Standard sObjects to tie with models.
 3. Use of Skuid Design Systems to create theme for Skuid Page
-4. Created inline CSS inline to apply unique formatting to Skuid Components throught their CSS Classes
+4. Created inline CSS to apply unique formatting to Skuid Components through their CSS Classes
 5. JavaScript Snippets to handle Interactions such as click events.
 6. Use of Action Sequences to automate sObject, Component, UI manipulation. 
 
