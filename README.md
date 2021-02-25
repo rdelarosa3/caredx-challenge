@@ -11,7 +11,10 @@ Salesforce Visualforce page built using Skuid UX/UI tool. This Page creates an A
 3. [Overview - Approach - Guide](https://github.com/rdelarosa3/caredx-challenge#overview)
 
 ### Demo
+
 ![ezgif com-gif-maker (5)](https://user-images.githubusercontent.com/40813295/109212553-48ba9b00-7775-11eb-8aa8-db2ae1f0fd1d.gif)
+<img width="600" alt="Screen Shot 2021-02-25 at 1 12 24 PM" src="https://user-images.githubusercontent.com/40813295/109219331-1614a080-777d-11eb-9102-232980ec94a4.png">
+
 
                         
 ### Technologies
