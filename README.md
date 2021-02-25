@@ -7,6 +7,7 @@ Salesforce Visualforce page built using Skuid UX/UI tool. This Page creates an A
 ## Table of Contents
 1. [Demo](https://github.com/rdelarosa3/caredx-challenge#demo)
 2. [Technologies Applied](https://github.com/rdelarosa3/caredx-challenge#technologies)
+3. [Install Instructions](https://github.com/rdelarosa3/Instructions)
 3. [Overview - Approach - Guide](https://github.com/rdelarosa3/caredx-challenge#overview)
 
 ### Demo
@@ -19,6 +20,15 @@ Salesforce Visualforce page built using Skuid UX/UI tool. This Page creates an A
 - Visualforce [link](https://developer.salesforce.com/docs/atlas.en-us.pages.meta/pages/pages_intro.htm)
 - Skuid v12.4.20 [link](https://www.skuid.com/)
 
+### Instructions
+- Use Skuid UX/UI Tool
+- Page API:  V1
+- Data source: Uses default Salesforce data source
+- Design system: [Download this sktheme file](https://github.com/rdelarosa3/caredx-challenge/caredx-challenge/).  Use the Import function on the Design System page to add this system to your org. 
+- Page XML:  [Download this xml file](https://github.com/rdelarosa3/caredx-challenge/caredx-challenge/caredx-challenge.xml), and Create new Skuid Page select XML options and import XML file.
+- Create a new Visualforce Page 
+- Include <skuid:page page="YOURSKUIDPAGENAME"/> in Visualforce markup
+- Dep
 ### Overview 
 
 ### Approach
