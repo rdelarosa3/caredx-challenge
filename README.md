@@ -7,7 +7,7 @@ Salesforce Visualforce page built using Skuid UX/UI tool. This Page creates an A
 ## Table of Contents
 1. [Demo](https://github.com/rdelarosa3/caredx-challenge#demo)
 2. [Technologies Applied](https://github.com/rdelarosa3/caredx-challenge#technologies)
-3. [Install Instructions](https://github.com/rdelarosa3/Instructions)
+3. [Install Instructions](https://github.com/rdelarosa3/caredx-challenge#instructions)
 3. [Overview - Approach - Guide](https://github.com/rdelarosa3/caredx-challenge#overview)
 
 ### Demo
