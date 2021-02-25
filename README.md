@@ -1,4 +1,4 @@
-# CareDx-challenge
+# CareDx Skuid Challenge
 <b></b>
 <b></b>
 <p align="center"> 
