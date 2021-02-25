@@ -15,7 +15,7 @@ Salesforce Visualforce page built using Skuid UX/UI tool. This Page creates an A
 ### Technologies
 
 - Salesforce.com [link](https://developer.salesforce.com/)
-- Visualforce [link]()https://developer.salesforce.com/docs/atlas.en-us.pages.meta/pages/pages_intro.htm)
+- Visualforce [link](https://developer.salesforce.com/docs/atlas.en-us.pages.meta/pages/pages_intro.htm)
 - Skuid v12.4.20 [link](https://www.skuid.com/)
 
 ### Overview 
