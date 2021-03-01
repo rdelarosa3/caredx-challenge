@@ -45,7 +45,9 @@ Salesforce Visualforce page built using Skuid UX/UI tool. This Page creates an A
 6. Use of Action Sequences to automate sObject, Component, UI manipulation. 
 
 #### Guide
+
 *** Requirements to interact with page*** 
+
 Create Accounts with name ending in (Global).
 Create at least one Child account for each Global Acccount.
 Create Open/ Closed Opportunites for each child account to interact with chart.
