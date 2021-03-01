@@ -46,12 +46,12 @@ Salesforce Visualforce page built using Skuid UX/UI tool. This Page creates an A
 
 #### Guide
 
-*** Requirements to interact with page*** 
+*** Requirements to interact with Page*** 
 
-Create Accounts with name ending in (Global).
+Create at leat one Account with name ending in (Global).
 Create at least one Child account for each Global Acccount.
 Create Open/ Closed Opportunites for each child account to interact with chart.
-Create At least one open case for any child company
+Create at least one open case for any child company
 
 1. User may view and search through the Accounts List on the left section.  
 2. When an account is selected/clicked an Action Sequence will be triggered that queries 6 models tying them to the id of the account.
