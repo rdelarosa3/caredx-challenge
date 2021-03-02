@@ -48,9 +48,9 @@ Salesforce Visualforce page built using Skuid UX/UI tool. This Page creates an A
 
 *** Requirements to interact with Page*** 
 
-Create at leat one Account with name ending in (Global).
-Create at least one Child account for each Global Acccount.
-Create Open/ Closed Opportunites for each child account to interact with chart.
+Create at leat one Account with name ending in (Global).<br>
+Create at least one Child account for each Global Acccount.<br>
+Create Open/ Closed Opportunites for each child account to interact with chart.<br>
 Create at least one open case for any child company
 
 1. User may view and search through the Accounts List on the left section.  
